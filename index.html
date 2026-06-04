@@ -34,7 +34,7 @@
     <main id="home-page" class="page active">
         <div class="service-nav-container">
             <div class="opening-video-wrapper">
-                <video id="opening.mp4" autoplay muted playsinline>
+                <video id="openingVideo" autoplay muted playsinline>
                     <source src="Opening-2.mp4" type="video/mp4">
                     您的瀏覽器不支援影片標籤。
                 </video>
@@ -151,9 +151,9 @@
                     <p>除了舞台上的高光，那些在幕後練習的毅力、熱血的喊話，同樣定義了樂手們與樂團的靈魂；我們致力於挖掘這些微小卻深刻的片段，透過具質感的版面經營與設計，將樂團的日常轉化為能與受眾共鳴的故事。</p>
                 </div>
                 <div class="narrative-image relative overflow-hidden shadow-xl aspect-[16/9]">
-                <!-- 輪播容器：ID 改為 home-carousel 以區分音樂會頁面 -->
+
                 <div id="home-carousel-3" class="flex transition-transform duration-1000 ease-in-out h-full">
-                    <!-- 使用循環生成 1~19 張圖（這裡示範前幾張，請補齊至 19） -->
+
                     <img src="homepage3 (1).jpg" class="w-full h-full object-cover flex-shrink-0">
                     <img src="homepage3 (2).jpg" class="w-full h-full object-cover flex-shrink-0">
                     <img src="homepage3 (3).jpg" class="w-full h-full object-cover flex-shrink-0">
@@ -175,7 +175,6 @@
                     <img src="homepage3 (19).jpg" class="w-full h-full object-cover flex-shrink-0">
                     <img src="homepage3 (20).jpg" class="w-full h-full object-cover flex-shrink-0">
                 </div>
-                <!-- 導航淡入淡出裝飾 (可選：讓左右有微弱漸層感) -->
                 <div class="absolute inset-0 pointer-events-none shadow-[inset_0_0_50px_rgba(0,0,0,0.1)]"></div>
                 </div>
             </section>
@@ -206,9 +205,8 @@
     </main>
 
     <main id="about-page" class="page">
-        <video autoplay muted playsinline id="aboutVideo" style="width: 100%; height: auto; display: block;">
+        <video id="aboutVideo" autoplay muted playsinline loop style="width: 100%; height: auto; display: block;">
             <source src="About Page.mp4" type="video/mp4">
-            您的瀏覽器不支援影片標籤。
         </video>
         <div class="service-details">
             <h2>服務項目 Service</h2>
