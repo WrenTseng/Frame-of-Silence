@@ -1,0 +1,2579 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frame of Silence Studio | 一幀映時影像工作室</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<script src="script.js"></script>
+<body>
+
+    <nav>
+        <div class="nav-logo" onclick="showPage('home-page'); closeMobileMenu();">
+            <img src="LOGO-7.png" alt="Logo">
+        </div>
+    
+        <button class="menu-toggle" id="mobile-menu-btn" onclick="toggleMobileMenu()" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    
+        <div class="nav-links" id="nav-links">
+            <a onclick="showPage('home-page'); closeMobileMenu();">首頁 HOME</a>
+            <a onclick="showPage('about-page'); closeMobileMenu();">關於 ABOUT</a>
+            <a onclick="showPage('photo-page'); closeMobileMenu();">平面影像 PHOTOGRAPHY</a>
+            <a onclick="showPage('video-page'); closeMobileMenu();">動態影像 VIDEOGRAPHY</a>
+        </div>
+    </nav>
+
+    <main id="home-page" class="page active">
+        <div class="service-nav-container">
+            <div class="opening-video-wrapper">
+                <video id="opening.mp4" autoplay muted playsinline>
+                    <source src="Opening-2.mp4" type="video/mp4">
+                    您的瀏覽器不支援影片標籤。
+                </video>
+            </div>
+        </div>
+
+        <div class="nav-logo3">
+            <img src="LOGO-3.png" alt="Logo">
+        </div>
+
+        <div class="spacer-block" style="height: 150px; width: 100%;"></div>
+        <div class="narrative-container">
+            <section class="narrative-section">
+                <div class="narrative-text">
+                    <h2><strong>影像與音符的共生</strong></h2>
+                    <h3>「聽見光的流動，看見音符的輪廓。」</h3>
+                    <p>在鏡頭裡，影像不只是紀錄，而是音樂的延伸；我們依循著樂曲的起承轉合，在聲部交疊與旋律起伏間，捕捉那些被聲音激起的瞬間，延續樂音的迴響。</p>
+                </div>
+                <div class="narrative-image relative overflow-hidden shadow-xl aspect-[16/9]">
+                <div id="home-carousel" class="flex transition-transform duration-1000 ease-in-out h-full">
+                    <!-- 使用循環生成 1~19 張圖（這裡示範前幾張，請補齊至 19） -->
+                    <img src="homepage1 (1).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage1 (2).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage1 (3).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage1 (4).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage1 (5).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage1 (6).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage1 (7).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage1 (8).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage1 (9).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage1 (10).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage1 (11).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage1 (12).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage1 (13).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage1 (14).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage1 (15).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage1 (16).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage1 (17).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage1 (18).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage1 (19).jpg" class="w-full h-full object-cover flex-shrink-0">
+                </div>
+                <div class="absolute inset-0 pointer-events-none shadow-[inset_0_0_50px_rgba(0,0,0,0.1)]"></div>
+                </div>
+            </section>
+            
+            <section class="narrative-section reverse">
+            <div class="narrative-text">
+                <h2><strong>大型樂團演出與活動紀錄</strong></h2>
+                <h3>「循著旋律的脈絡，構築品牌敘事。」</h3>
+                <p>我們以精準的感官同步為核心，深入分析樂曲結構，從主旋律的切換到樂器獨奏段落，透過影像精準對位於樂句的每一處轉折；同時在演出現場，重視專業的臨場默契，於嚴守音樂會禮儀與音場配置的前提下，捕捉樂手與樂器之間最真實且細微的互動，保留演出的純粹氛圍，並且亦能深耕品牌化的影像策略，使每一場活動紀錄不僅止於保存，更具備長期宣傳與擴散價值，呈現一致性的視覺質地與美學風格，建立樂團穩定的品牌辨識度與社群感染力。</p>
+            </div>
+
+            <div class="narrative-image relative overflow-hidden shadow-xl aspect-[16/9]">
+                <div id="home-carousel-2" class="flex transition-transform duration-1000 ease-in-out h-full">
+            
+                    <div class="flex-shrink-0 w-full h-full overflow-hidden">
+                        <img src="homepage2 (1).jpg" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="flex-shrink-0 w-full h-full overflow-hidden">
+                        <img src="homepage2 (2).jpg" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="flex-shrink-0 w-full h-full overflow-hidden">
+                        <img src="homepage2 (3).jpg" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="flex-shrink-0 w-full h-full overflow-hidden">
+                        <img src="homepage2 (4).jpg" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="flex-shrink-0 w-full h-full overflow-hidden">
+                        <img src="homepage2 (5).jpg" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="flex-shrink-0 w-full h-full overflow-hidden">
+                        <img src="homepage2 (6).jpg" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="flex-shrink-0 w-full h-full overflow-hidden">
+                        <img src="homepage2 (7).jpg" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="flex-shrink-0 w-full h-full overflow-hidden">
+                        <img src="homepage2 (8).jpg" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="flex-shrink-0 w-full h-full overflow-hidden">
+                        <img src="homepage2 (9).jpg" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="flex-shrink-0 w-full h-full overflow-hidden">
+                        <img src="homepage2 (10).jpg" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="flex-shrink-0 w-full h-full overflow-hidden">
+                        <img src="homepage2 (11).jpg" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="flex-shrink-0 w-full h-full overflow-hidden">
+                        <img src="homepage2 (12).jpg" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="flex-shrink-0 w-full h-full overflow-hidden">
+                        <img src="homepage2 (13).jpg" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="flex-shrink-0 w-full h-full overflow-hidden">
+                        <img src="homepage2 (14).jpg" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="flex-shrink-0 w-full h-full overflow-hidden">
+                        <img src="homepage2 (15).jpg" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="flex-shrink-0 w-full h-full overflow-hidden">
+                        <img src="homepage2 (16).jpg" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+
+                </div>
+                <div class="absolute inset-0 pointer-events-none shadow-[inset_0_0_40px_rgba(0,0,0,0.05)]"></div>
+                </div>
+            </section>
+            
+            <section class="narrative-section">
+                <div class="narrative-text">
+                    <h2><strong>幕後紀實與社群敘事</strong></h2>
+                    <h3>「留住那些，與音樂共處的時光。」</h3>
+                    <p>除了舞台上的高光，那些在幕後練習的毅力、熱血的喊話，同樣定義了樂手們與樂團的靈魂；我們致力於挖掘這些微小卻深刻的片段，透過具質感的版面經營與設計，將樂團的日常轉化為能與受眾共鳴的故事。</p>
+                </div>
+                <div class="narrative-image relative overflow-hidden shadow-xl aspect-[16/9]">
+                <!-- 輪播容器：ID 改為 home-carousel 以區分音樂會頁面 -->
+                <div id="home-carousel-3" class="flex transition-transform duration-1000 ease-in-out h-full">
+                    <!-- 使用循環生成 1~19 張圖（這裡示範前幾張，請補齊至 19） -->
+                    <img src="homepage3 (1).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage3 (2).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage3 (3).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage3 (4).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage3 (5).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage3 (6).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage3 (7).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage3 (8).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage3 (9).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage3 (10).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage3 (11).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage3 (12).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage3 (13).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage3 (14).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage3 (15).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage3 (16).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage (17).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage3 (18).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage3 (19).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage3 (20).jpg" class="w-full h-full object-cover flex-shrink-0">
+                </div>
+                <!-- 導航淡入淡出裝飾 (可選：讓左右有微弱漸層感) -->
+                <div class="absolute inset-0 pointer-events-none shadow-[inset_0_0_50px_rgba(0,0,0,0.1)]"></div>
+                </div>
+            </section>
+            <section class="narrative-section reverse">
+                <div class="narrative-text">
+                    <h2><strong>MV/Live Session 影像製作</strong></h2>
+                    <h3>「最好的作品，往往誕生於最自在的頻率中。」</h3>
+                    <p> 在創作的原生地，視覺化你的聲音。</p>
+                    <p>我們深入音樂人創作的專屬空間，將工作環境轉化為具備個人風格與氛圍的動態場景，免除場地搬運與租借的繁瑣，讓創作者能更專注於音樂本身。同時，我們以「聽覺的視覺轉譯」為核心，為每一首歌曲量身打造專屬的視覺策略，透過影像在數位媒介中為聲音開路，使觀者不只是聆聽，而是能沉浸於音樂所建構出的情感與美學氛圍之中。。</p>
+                </div>
+                <div class="narrative-image relative overflow-hidden shadow-xl aspect-[16/9]">
+                <div id="home-carousel-4" class="flex transition-transform duration-1000 ease-in-out h-full">
+                    <img src="homepage4 (1).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage4 (2).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage4 (3).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage4 (4).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage4 (5).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage4 (6).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage4 (7).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage4 (8).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage4 (9).jpg" class="w-full h-full object-cover flex-shrink-0">
+                    <img src="homepage4 (10).jpg" class="w-full h-full object-cover flex-shrink-0">
+                </div>
+                <div class="absolute inset-0 pointer-events-none shadow-[inset_0_0_50px_rgba(0,0,0,0.1)]"></div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <main id="about-page" class="page">
+        <video autoplay muted playsinline id="aboutVideo" style="width: 100%; height: auto; display: block;">
+            <source src="About Page.mp4" type="video/mp4">
+            您的瀏覽器不支援影片標籤。
+        </video>
+        <div class="service-details">
+            <h2>服務項目 Service</h2>
+            <div class="service-detail-box" onclick="showPage('photo-page')" style="cursor:pointer">
+                <span class="service-icon"><i class="fas fa-camera"></i></span>
+                <div class="service-text-content">
+                    <h3>平面影像 PHOTOGRAPHY</h3>
+                    <p>活動紀錄 Event Recording ｜ 音樂會拍攝 Concert Recording ｜ 幕後花絮 Behind The Scenes｜側拍 Video Stills</p>
+                </div>
+            </div>
+            <div class="service-detail-box" onclick="showPage('video-page')" style="cursor:pointer">
+                <span class="service-icon"><i class="fas fa-video"></i></span>
+                <div class="service-text-content">
+                    <h3>動態影像 VIDEOGRAPHY</h3>
+                    <p>音樂錄影帶 Music Video ｜ 樂器演奏 Instrument Cover ｜ 活動紀錄 Event Recording｜</p>
+                    <p>現場演出 One Minute Live Session & Stage Recording｜幕後花絮紀錄 Behind The Scenes</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="workflow-section">
+            <h2 style="margin-bottom: 30px;">製作流程 Service Process</h2>
+            <div class="workflow-grid">
+                <div class="step-item">
+                    <i class="fa-regular fa-comments"></i>
+                    <span>STEP 01</span>
+                    <p>提案會議</p>
+                </div>
+                <div class="step-item">
+                    <i class="fa-regular fa-calendar-check"></i>
+                    <span>STEP 02</span>
+                    <p>提供報價</p>
+                </div>
+                <div class="step-item">
+                    <i class="fa-regular fa-handshake"></i>
+                    <span>STEP 03</span>
+                    <p>簽訂合約</p>
+                </div>
+                <div class="step-item">
+                    <i class="fa-regular fa-pen-to-square"></i>
+                    <span>STEP 04</span>
+                    <p>腳本確認</p>
+                </div>
+                <div class="step-item">
+                    <i class="fa-solid fa-clapperboard"></i>
+                    <span>STEP 05</span>
+                    <p>正式拍攝</p>
+                </div>
+                <div class="step-item">
+                    <i class="fa-solid fa-tv"></i>
+                    <span>STEP 06</span>
+                    <p>後製調光</p>
+                </div>
+                <div class="step-item">
+                    <i class="fa-solid fa-photo-film"></i>
+                    <span>STEP 07</span>
+                    <p>完成交件</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-section">
+            <h2 style="text-align: center; margin-bottom: 40px;">聯絡 Contact</h2>
+            <form id="contactForm">
+                <div class="form-group"><label>姓名 Name</label><input type="text" id="form-name" required></div>
+                <div class="form-group"><label>電話 Phone Number</label><input type="tel" id="form-phone"></div>
+                <div class="form-group"><label>信箱 Email</label><input type="email" id="form-email" required></div>
+                <div class="form-group"><label>內容 Content</label><textarea rows="5" id="form-content" required></textarea></div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="agree" required>
+                    <label for="agree">我已詳細閱讀隱私權政策及客戶權利義務條款。</label>
+                </div>
+                <button type="submit" class="submit-btn">確認送出</button>
+            </form>
+        </div>
+    </main>
+
+    <main id="photo-page" class="page">
+        <h1 class="page-title">平面影像 PHOTOGRAPHY</h1>
+        <div class="portfolio-grid">
+            <div class="work-item" onclick="showPage('concert-detail')"><img src="PH1.jpg" alt="Work"><p><strong>音樂會攝影 <span>Concert Recording</span></strong></p></div>
+            <div class="work-item" onclick="showPage('bts-detail')"><img src="PH2.jpg" alt="Work"><p><strong>側拍 <span>Behind The Scenes</span></strong></p></div>
+            <div class="work-item" onclick="showPage('stage-detail')"><img src="PH3.jpg" alt="Work"><p><strong>演出幕後 <span>Behind The Stage</span></strong></p></div>
+            <div class="work-item" onclick="showPage('event-detail')"><img src="PH4.jpg" alt="Work"><p><strong>活動紀錄 <span>Event Recording</span></strong></p></div>
+        </div>
+    </main>
+
+    <main id="mdwb-2025wb-detail" class="page">
+        <div class="work-display-header">
+            <h1>2025 嘉義市國際管樂節</h1>
+            <p class="english-title">2025 MDWB Chiayi City International Band Festival</p>
+            <p class="subtitle">PHOTOGRAPHY & COLOR</p>
+        </div>
+        <div class="flex justify-center mb-12">
+            <div class="w-full max-w-4xl relative"> 
+                <div class="relative overflow-hidden shadow-2xl transform aspect-[16/9]">
+                    <div id="universal-carousel" class="flex transition-transform duration-700 ease-in-out h-full">
+                        <img src="mdwb2025wb (38).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2025wb (50).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2025wb (58).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2025wb (48).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2025wb (132).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2025wb (129).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2025wb (126).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2025wb (80).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2025wb (81).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2025wb (104).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                    </div>
+
+                    <div class="absolute bottom-4 right-6 flex space-x-2 z-10">
+                        <button onclick="goToSlide(0)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(1)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(2)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(3)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(4)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(5)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(6)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(7)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(8)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(9)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(10)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="photo-display-grid">
+
+            <div class="photo-box"><img src="mdwb2025wb (1).jpg" alt="Work 1"></div>
+            <div class="photo-box"><img src="mdwb2025wb (2).jpg" alt="Work 2"></div>
+            <div class="photo-box"><img src="mdwb2025wb (3).jpg" alt="Work 3"></div>
+            <div class="photo-box"><img src="mdwb2025wb (4).jpg" alt="Work 4"></div>
+            <div class="photo-box"><img src="mdwb2025wb (5).jpg" alt="Work 5"></div>
+            <div class="photo-box"><img src="mdwb2025wb (6).jpg" alt="Work 6"></div>
+            <div class="photo-box"><img src="mdwb2025wb (7).jpg" alt="Work 7"></div>
+            <div class="photo-box"><img src="mdwb2025wb (8).jpg" alt="Work 8"></div>
+            <div class="photo-box"><img src="mdwb2025wb (9).jpg" alt="Work 9"></div>
+            <div class="photo-box"><img src="mdwb2025wb (10).jpg" alt="Work 10"></div>
+            <div class="photo-box"><img src="mdwb2025wb (11).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="mdwb2025wb (12).jpg" alt="Work 12"></div>
+            <div class="photo-box"><img src="mdwb2025wb (13).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="mdwb2025wb (14).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="mdwb2025wb (15).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="mdwb2025wb (16).jpg" alt="Work 16"></div>
+            <div class="photo-box"><img src="mdwb2025wb (17).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="mdwb2025wb (18).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="mdwb2025wb (19).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="mdwb2025wb (20).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="mdwb2025wb (21).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="mdwb2025wb (22).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="mdwb2025wb (23).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="mdwb2025wb (24).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="mdwb2025wb (25).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="mdwb2025wb (26).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="mdwb2025wb (27).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="mdwb2025wb (28).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="mdwb2025wb (29).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="mdwb2025wb (30).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="mdwb2025wb (31).jpg" alt="Work 31"></div>
+            <div class="photo-box"><img src="mdwb2025wb (32).jpg" alt="Work 32"></div>
+            <div class="photo-box"><img src="mdwb2025wb (33).jpg" alt="Work 33"></div>
+            <div class="photo-box"><img src="mdwb2025wb (34).jpg" alt="Work 34"></div>
+            <div class="photo-box"><img src="mdwb2025wb (35).jpg" alt="Work 35"></div>
+            <div class="photo-box"><img src="mdwb2025wb (36).jpg" alt="Work 36"></div>
+            <div class="photo-box"><img src="mdwb2025wb (37).jpg" alt="Work 37"></div>
+            <div class="photo-box"><img src="mdwb2025wb (38).jpg" alt="Work 38"></div>
+            <div class="photo-box"><img src="mdwb2025wb (39).jpg" alt="Work 39"></div>
+            <div class="photo-box"><img src="mdwb2025wb (40).jpg" alt="Work 40"></div>
+            <div class="photo-box"><img src="mdwb2025wb (41).jpg" alt="Work 41"></div>
+            <div class="photo-box"><img src="mdwb2025wb (42).jpg" alt="Work 42"></div>
+            <div class="photo-box"><img src="mdwb2025wb (43).jpg" alt="Work 43"></div>
+            <div class="photo-box"><img src="mdwb2025wb (44).jpg" alt="Work 44"></div>
+            <div class="photo-box"><img src="mdwb2025wb (45).jpg" alt="Work 45"></div>
+            <div class="photo-box"><img src="mdwb2025wb (46).jpg" alt="Work 46"></div>
+            <div class="photo-box"><img src="mdwb2025wb (47).jpg" alt="Work 47"></div>
+            <div class="photo-box"><img src="mdwb2025wb (48).jpg" alt="Work 48"></div>
+            <div class="photo-box"><img src="mdwb2025wb (49).jpg" alt="Work 49"></div>
+            <div class="photo-box"><img src="mdwb2025wb (50).jpg" alt="Work 50"></div>
+            <div class="photo-box"><img src="mdwb2025wb (51).jpg" alt="Work 51"></div>
+            <div class="photo-box"><img src="mdwb2025wb (52).jpg" alt="Work 52"></div>
+            <div class="photo-box"><img src="mdwb2025wb (53).jpg" alt="Work 53"></div>
+            <div class="photo-box"><img src="mdwb2025wb (54).jpg" alt="Work 54"></div>
+            <div class="photo-box"><img src="mdwb2025wb (55).jpg" alt="Work 55"></div>
+            <div class="photo-box"><img src="mdwb2025wb (56).jpg" alt="Work 56"></div>
+            <div class="photo-box"><img src="mdwb2025wb (57).jpg" alt="Work 57"></div>
+            <div class="photo-box"><img src="mdwb2025wb (58).jpg" alt="Work 58"></div>
+            <div class="photo-box"><img src="mdwb2025wb (59).jpg" alt="Work 59"></div>
+            <div class="photo-box"><img src="mdwb2025wb (60).jpg" alt="Work 60"></div>
+            <div class="photo-box"><img src="mdwb2025wb (61).jpg" alt="Work 61"></div>
+            <div class="photo-box"><img src="mdwb2025wb (62).jpg" alt="Work 62"></div>
+            <div class="photo-box"><img src="mdwb2025wb (63).jpg" alt="Work 63"></div>
+            <div class="photo-box"><img src="mdwb2025wb (64).jpg" alt="Work 64"></div>
+            <div class="photo-box"><img src="mdwb2025wb (65).jpg" alt="Work 65"></div>
+            <div class="photo-box"><img src="mdwb2025wb (66).jpg" alt="Work 66"></div>
+            <div class="photo-box"><img src="mdwb2025wb (67).jpg" alt="Work 67"></div>
+            <div class="photo-box"><img src="mdwb2025wb (68).jpg" alt="Work 68"></div>
+            <div class="photo-box"><img src="mdwb2025wb (69).jpg" alt="Work 69"></div>
+            <div class="photo-box"><img src="mdwb2025wb (70).jpg" alt="Work 70"></div>
+            <div class="photo-box"><img src="mdwb2025wb (71).jpg" alt="Work 71"></div>
+            <div class="photo-box"><img src="mdwb2025wb (72).jpg" alt="Work 72"></div>
+            <div class="photo-box"><img src="mdwb2025wb (73).jpg" alt="Work 73"></div>
+            <div class="photo-box"><img src="mdwb2025wb (74).jpg" alt="Work 74"></div>
+            <div class="photo-box"><img src="mdwb2025wb (75).jpg" alt="Work 75"></div>
+            <div class="photo-box"><img src="mdwb2025wb (76).jpg" alt="Work 76"></div>
+            <div class="photo-box"><img src="mdwb2025wb (78).jpg" alt="Work 78"></div>
+            <div class="photo-box"><img src="mdwb2025wb (79).jpg" alt="Work 79"></div>
+            <div class="photo-box"><img src="mdwb2025wb (80).jpg" alt="Work 80"></div>
+            <div class="photo-box"><img src="mdwb2025wb (81).jpg" alt="Work 81"></div>
+            <div class="photo-box"><img src="mdwb2025wb (82).jpg" alt="Work 82"></div>
+            <div class="photo-box"><img src="mdwb2025wb (83).jpg" alt="Work 83"></div>
+            <div class="photo-box"><img src="mdwb2025wb (84).jpg" alt="Work 84"></div>
+            <div class="photo-box"><img src="mdwb2025wb (85).jpg" alt="Work 85"></div>
+            <div class="photo-box"><img src="mdwb2025wb (86).jpg" alt="Work 86"></div>
+            <div class="photo-box"><img src="mdwb2025wb (87).jpg" alt="Work 87"></div>
+            <div class="photo-box"><img src="mdwb2025wb (88).jpg" alt="Work 88"></div>
+            <div class="photo-box"><img src="mdwb2025wb (89).jpg" alt="Work 89"></div>
+            <div class="photo-box"><img src="mdwb2025wb (90).jpg" alt="Work 90"></div>
+            <div class="photo-box"><img src="mdwb2025wb (91).jpg" alt="Work 91"></div>
+            <div class="photo-box"><img src="mdwb2025wb (92).jpg" alt="Work 92"></div>
+            <div class="photo-box"><img src="mdwb2025wb (93).jpg" alt="Work 93"></div>
+            <div class="photo-box"><img src="mdwb2025wb (94).jpg" alt="Work 94"></div>
+            <div class="photo-box"><img src="mdwb2025wb (95).jpg" alt="Work 95"></div>
+            <div class="photo-box"><img src="mdwb2025wb (96).jpg" alt="Work 96"></div>
+            <div class="photo-box"><img src="mdwb2025wb (97).jpg" alt="Work 97"></div>
+            <div class="photo-box"><img src="mdwb2025wb (98).jpg" alt="Work 98"></div>
+            <div class="photo-box"><img src="mdwb2025wb (99).jpg" alt="Work 99"></div>
+            <div class="photo-box"><img src="mdwb2025wb (100).jpg" alt="Work 100"></div>
+            <div class="photo-box"><img src="mdwb2025wb (101).jpg" alt="Work 101"></div>
+            <div class="photo-box"><img src="mdwb2025wb (102).jpg" alt="Work 102"></div>
+            <div class="photo-box"><img src="mdwb2025wb (103).jpg" alt="Work 103"></div>
+            <div class="photo-box"><img src="mdwb2025wb (104).jpg" alt="Work 104"></div>
+            <div class="photo-box"><img src="mdwb2025wb (105).jpg" alt="Work 105"></div>
+            <div class="photo-box"><img src="mdwb2025wb (106).jpg" alt="Work 106"></div>
+            <div class="photo-box"><img src="mdwb2025wb (107).jpg" alt="Work 107"></div>
+            <div class="photo-box"><img src="mdwb2025wb (108).jpg" alt="Work 108"></div>
+            <div class="photo-box"><img src="mdwb2025wb (109).jpg" alt="Work 109"></div>
+            <div class="photo-box"><img src="mdwb2025wb (110).jpg" alt="Work 110"></div>
+            <div class="photo-box"><img src="mdwb2025wb (111).jpg" alt="Work 111"></div>
+            <div class="photo-box"><img src="mdwb2025wb (112).jpg" alt="Work 112"></div>
+            <div class="photo-box"><img src="mdwb2025wb (113).jpg" alt="Work 113"></div>
+            <div class="photo-box"><img src="mdwb2025wb (114).jpg" alt="Work 114"></div>
+            <div class="photo-box"><img src="mdwb2025wb (115).jpg" alt="Work 115"></div>
+            <div class="photo-box"><img src="mdwb2025wb (116).jpg" alt="Work 116"></div>
+            <div class="photo-box"><img src="mdwb2025wb (117).jpg" alt="Work 117"></div>
+            <div class="photo-box"><img src="mdwb2025wb (118).jpg" alt="Work 118"></div>
+            <div class="photo-box"><img src="mdwb2025wb (119).jpg" alt="Work 119"></div>
+            <div class="photo-box"><img src="mdwb2025wb (120).jpg" alt="Work 120"></div>
+            <div class="photo-box"><img src="mdwb2025wb (121).jpg" alt="Work 121"></div>
+            <div class="photo-box"><img src="mdwb2025wb (122).jpg" alt="Work 122"></div>
+            <div class="photo-box"><img src="mdwb2025wb (123).jpg" alt="Work 123"></div>
+            <div class="photo-box"><img src="mdwb2025wb (124).jpg" alt="Work 124"></div>
+            <div class="photo-box"><img src="mdwb2025wb (125).jpg" alt="Work 125"></div>
+            <div class="photo-box"><img src="mdwb2025wb (126).jpg" alt="Work 126"></div>
+            <div class="photo-box"><img src="mdwb2025wb (127).jpg" alt="Work 127"></div>
+            <div class="photo-box"><img src="mdwb2025wb (128).jpg" alt="Work 128"></div>
+            <div class="photo-box"><img src="mdwb2025wb (129).jpg" alt="Work 129"></div>
+            <div class="photo-box"><img src="mdwb2025wb (130).jpg" alt="Work 130"></div>
+            <div class="photo-box"><img src="mdwb2025wb (131).jpg" alt="Work 131"></div>
+            <div class="photo-box"><img src="mdwb2025wb (132).jpg" alt="Work 132"></div>
+        </div>
+        <button class="back-btn" onclick="showPage('concert-detail')">← 返回列表</button>
+    </main>
+
+    <main id="mdwb-2025summer-detail" class="page">
+        <div class="work-display-header">
+         <h1>2025《藍色管風情》音樂會 </h1>
+         <p class="english-title">2025 MDWB Concert</p>
+         <p class="subtitle">PHOTOGRAPHY & COLOR</p>
+        </div>
+        <div class="flex justify-center mb-12"> 
+        <div class="w-full max-w-4xl relative"> 
+            <div class="relative overflow-hidden shadow-2xl transform aspect-[16/9]">
+                <div id="universal-carousel" class="flex transition-transform duration-700 ease-in-out h-full">
+                    <img src="mdwb2025summer (1).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                    <img src="mdwb2025summer (11).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                    <img src="mdwb2025summer (50).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                    <img src="mdwb2025summer (26).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                    <img src="mdwb2025summer (18).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                    <img src="mdwb2025summer (30).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                    <img src="mdwb2025summer (37).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                    <img src="mdwb2025summer (54).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                    <img src="mdwb2025summer (56).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                    <img src="mdwb2025summer (62).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                </div>
+
+                <div class="absolute bottom-4 right-6 flex space-x-2 z-10 items-center h-2">
+                    <button onclick="goToSlideMDWB(0)" class="dot-mdwb h-2 rounded-full bg-white transition-all duration-300" style="width: 8px; opacity: 0.5;"></button>
+                    <button onclick="goToSlideMDWB(1)" class="dot-mdwb h-2 rounded-full bg-white transition-all duration-300" style="width: 8px; opacity: 0.5;"></button>
+                    <button onclick="goToSlideMDWB(2)" class="dot-mdwb h-2 rounded-full bg-white transition-all duration-300" style="width: 8px; opacity: 0.5;"></button>
+                    <button onclick="goToSlideMDWB(3)" class="dot-mdwb h-2 rounded-full bg-white transition-all duration-300" style="width: 8px; opacity: 0.5;"></button>
+                    <button onclick="goToSlideMDWB(4)" class="dot-mdwb h-2 rounded-full bg-white transition-all duration-300" style="width: 8px; opacity: 0.5;"></button>
+                    <button onclick="goToSlideMDWB(5)" class="dot-mdwb h-2 rounded-full bg-white transition-all duration-300" style="width: 8px; opacity: 0.5;"></button>
+                    <button onclick="goToSlideMDWB(6)" class="dot-mdwb h-2 rounded-full bg-white transition-all duration-300" style="width: 8px; opacity: 0.5;"></button>
+                    <button onclick="goToSlideMDWB(7)" class="dot-mdwb h-2 rounded-full bg-white transition-all duration-300" style="width: 8px; opacity: 0.5;"></button>
+                    <button onclick="goToSlideMDWB(8)" class="dot-mdwb h-2 rounded-full bg-white transition-all duration-300" style="width: 8px; opacity: 0.5;"></button>
+                    <button onclick="goToSlideMDWB(9)" class="dot-mdwb h-2 rounded-full bg-white transition-all duration-300" style="width: 8px; opacity: 0.5;"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="photo-display-grid">
+            <div class="photo-box"><img src="mdwb2025summer (1).jpg" alt="Work 1"></div>
+            <div class="photo-box"><img src="mdwb2025summer (2).jpg" alt="Work 2"></div>
+            <div class="photo-box"><img src="mdwb2025summer (3).jpg" alt="Work 3"></div>
+            <div class="photo-box"><img src="mdwb2025summer (4).jpg" alt="Work 4"></div>
+        
+            <div class="photo-box"><img src="mdwb2025summer (5).jpg" alt="Work 5"></div>
+            <div class="photo-box"><img src="mdwb2025summer (6).jpg" alt="Work 6"></div>
+            <div class="photo-box"><img src="mdwb2025summer (7).jpg" alt="Work 7"></div>
+            <div class="photo-box"><img src="mdwb2025summer (8).jpg" alt="Work 8"></div>
+        
+            <div class="photo-box"><img src="mdwb2025summer (9).jpg" alt="Work 9"></div>
+            <div class="photo-box"><img src="mdwb2025summer (10).jpg" alt="Work 10"></div>
+            <div class="photo-box"><img src="mdwb2025summer (11).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="mdwb2025summer (12).jpg" alt="Work 12"></div>
+        
+            <div class="photo-box"><img src="mdwb2025summer (13).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="mdwb2025summer (14).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="mdwb2025summer (15).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="mdwb2025summer (16).jpg" alt="Work 16"></div>
+        
+            <div class="photo-box"><img src="mdwb2025summer (17).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="mdwb2025summer (18).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="mdwb2025summer (19).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="mdwb2025summer (20).jpg" alt="Work 20"></div>
+        
+            <div class="photo-box"><img src="mdwb2025summer (21).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="mdwb2025summer (22).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="mdwb2025summer (23).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="mdwb2025summer (24).jpg" alt="Work 24"></div>
+        
+            <div class="photo-box"><img src="mdwb2025summer (25).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="mdwb2025summer (26).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="mdwb2025summer (27).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="mdwb2025summer (28).jpg" alt="Work 28"></div>
+        
+            <div class="photo-box"><img src="mdwb2025summer (29).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="mdwb2025summer (30).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="mdwb2025summer (31).jpg" alt="Work 31"></div>
+            <div class="photo-box"><img src="mdwb2025summer (32).jpg" alt="Work 32"></div>
+        
+            <div class="photo-box"><img src="mdwb2025summer (33).jpg" alt="Work 33"></div>
+            <div class="photo-box"><img src="mdwb2025summer (34).jpg" alt="Work 34"></div>
+            <div class="photo-box"><img src="mdwb2025summer (35).jpg" alt="Work 35"></div>
+            <div class="photo-box"><img src="mdwb2025summer (36).jpg" alt="Work 36"></div>
+        
+            <div class="photo-box"><img src="mdwb2025summer (37).jpg" alt="Work 37"></div>
+            <div class="photo-box"><img src="mdwb2025summer (38).jpg" alt="Work 38"></div>
+            <div class="photo-box"><img src="mdwb2025summer (39).jpg" alt="Work 39"></div>
+            <div class="photo-box"><img src="mdwb2025summer (40).jpg" alt="Work 40"></div>
+        
+            <div class="photo-box"><img src="mdwb2025summer (41).jpg" alt="Work 41"></div>
+            <div class="photo-box"><img src="mdwb2025summer (42).jpg" alt="Work 42"></div>
+            <div class="photo-box"><img src="mdwb2025summer (43).jpg" alt="Work 43"></div>
+            <div class="photo-box"><img src="mdwb2025summer (44).jpg" alt="Work 44"></div>
+        
+            <div class="photo-box"><img src="mdwb2025summer (45).jpg" alt="Work 45"></div>
+            <div class="photo-box"><img src="mdwb2025summer (46).jpg" alt="Work 46"></div>
+            <div class="photo-box"><img src="mdwb2025summer (47).jpg" alt="Work 47"></div>
+            <div class="photo-box"><img src="mdwb2025summer (48).jpg" alt="Work 48"></div>
+        
+            <div class="photo-box"><img src="mdwb2025summer (49).jpg" alt="Work 49"></div>
+            <div class="photo-box"><img src="mdwb2025summer (50).jpg" alt="Work 50"></div>
+            <div class="photo-box"><img src="mdwb2025summer (51).jpg" alt="Work 51"></div>
+            <div class="photo-box"><img src="mdwb2025summer (52).jpg" alt="Work 52"></div>
+
+            <div class="photo-box"><img src="mdwb2025summer (53).jpg" alt="Work 49"></div>
+            <div class="photo-box"><img src="mdwb2025summer (54).jpg" alt="Work 50"></div>
+            <div class="photo-box"><img src="mdwb2025summer (55).jpg" alt="Work 51"></div>
+            <div class="photo-box"><img src="mdwb2025summer (56).jpg" alt="Work 52"></div>
+
+            <div class="photo-box"><img src="mdwb2025summer (57).jpg" alt="Work 49"></div>
+            <div class="photo-box"><img src="mdwb2025summer (58).jpg" alt="Work 50"></div>
+            <div class="photo-box"><img src="mdwb2025summer (59).jpg" alt="Work 51"></div>
+            <div class="photo-box"><img src="mdwb2025summer (60).jpg" alt="Work 52"></div>
+
+            <div class="photo-box"><img src="mdwb2025summer (61).jpg" alt="Work 49"></div>
+            <div class="photo-box"><img src="mdwb2025summer (62).jpg" alt="Work 50"></div>
+            <div class="photo-box"><img src="mdwb2025summer (63).jpg" alt="Work 51"></div>
+            <div class="photo-box"><img src="mdwb2025summer (64).jpg" alt="Work 52"></div>
+        </div>
+        <button class="back-btn" onclick="showPage('concert-detail')">← 返回列表</button>
+    </main>
+
+    <main id="2025sunmoon-detail" class="page">
+        <div class="work-display-header">
+            <h1>2025 中區十校管樂聯合暑訓《日樂曇》音樂會 </h1>
+            <p class="english-title">2025 Summer Wind Band Concert</p>
+             <p class="subtitle">PHOTOGRAPHY & COLOR</p>
+        </div>
+        <div class="flex justify-center mb-12">
+            <div class="w-full max-w-4xl relative"> 
+                <div class="relative overflow-hidden shadow-2xl transform aspect-[16/9]">
+                    <div id="universal-carousel" class="flex transition-transform duration-700 ease-in-out h-full">
+                        <img src="2025sunmoom (39).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2025sunmoom (4).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2025sunmoom (8).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2025sunmoom (85).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2025sunmoom (99).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2025sunmoom (88).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2025sunmoom (91).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2025sunmoom (82).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2025sunmoom (71).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2025sunmoom (57).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                    </div>
+
+                    <div class="absolute bottom-4 right-6 flex space-x-2 z-10">
+                        <button onclick="goToSlide(0)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(1)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(2)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(3)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(4)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(5)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(6)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(7)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(8)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(9)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(10)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-display-grid">
+        
+            <div class="photo-box"><img src="2025sunmoom (1).jpg" alt="Work 1"></div>
+            <div class="photo-box"><img src="2025sunmoom (2).jpg" alt="Work 2"></div>
+            <div class="photo-box"><img src="2025sunmoom (3).jpg" alt="Work 3"></div>
+            <div class="photo-box"><img src="2025sunmoom (4).jpg" alt="Work 4"></div>
+            <div class="photo-box"><img src="2025sunmoom (5).jpg" alt="Work 5"></div>
+            <div class="photo-box"><img src="2025sunmoom (6).jpg" alt="Work 6"></div>
+            <div class="photo-box"><img src="2025sunmoom (7).jpg" alt="Work 7"></div>
+            <div class="photo-box"><img src="2025sunmoom (8).jpg" alt="Work 8"></div>
+            <div class="photo-box"><img src="2025sunmoom (9).jpg" alt="Work 9"></div>
+            <div class="photo-box"><img src="2025sunmoom (10).jpg" alt="Work 10"></div>
+            <div class="photo-box"><img src="2025sunmoom (11).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="2025sunmoom (12).jpg" alt="Work 12"></div>
+            <div class="photo-box"><img src="2025sunmoom (13).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="2025sunmoom (14).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="2025sunmoom (15).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="2025sunmoom (16).jpg" alt="Work 16"></div>
+            <div class="photo-box"><img src="2025sunmoom (17).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="2025sunmoom (18).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="2025sunmoom (19).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="2025sunmoom (20).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="2025sunmoom (21).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="2025sunmoom (22).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="2025sunmoom (23).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="2025sunmoom (24).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="2025sunmoom (25).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="2025sunmoom (26).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="2025sunmoom (27).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="2025sunmoom (28).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="2025sunmoom (29).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="2025sunmoom (30).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="2025sunmoom (31).jpg" alt="Work 31"></div>
+            <div class="photo-box"><img src="2025sunmoom (32).jpg" alt="Work 32"></div>
+            <div class="photo-box"><img src="2025sunmoom (33).jpg" alt="Work 33"></div>
+            <div class="photo-box"><img src="2025sunmoom (34).jpg" alt="Work 34"></div>
+            <div class="photo-box"><img src="2025sunmoom (35).jpg" alt="Work 35"></div>
+            <div class="photo-box"><img src="2025sunmoom (36).jpg" alt="Work 36"></div>
+            <div class="photo-box"><img src="2025sunmoom (37).jpg" alt="Work 37"></div>
+            <div class="photo-box"><img src="2025sunmoom (38).jpg" alt="Work 38"></div>
+            <div class="photo-box"><img src="2025sunmoom (39).jpg" alt="Work 39"></div>
+            <div class="photo-box"><img src="2025sunmoom (40).jpg" alt="Work 40"></div>
+            <div class="photo-box"><img src="2025sunmoom (41).jpg" alt="Work 41"></div>
+            <div class="photo-box"><img src="2025sunmoom (42).jpg" alt="Work 42"></div>
+            <div class="photo-box"><img src="2025sunmoom (43).jpg" alt="Work 43"></div>
+            <div class="photo-box"><img src="2025sunmoom (44).jpg" alt="Work 44"></div>
+            <div class="photo-box"><img src="2025sunmoom (45).jpg" alt="Work 45"></div>
+            <div class="photo-box"><img src="2025sunmoom (46).jpg" alt="Work 46"></div>
+            <div class="photo-box"><img src="2025sunmoom (47).jpg" alt="Work 47"></div>
+            <div class="photo-box"><img src="2025sunmoom (48).jpg" alt="Work 48"></div>
+            <div class="photo-box"><img src="2025sunmoom (49).jpg" alt="Work 49"></div>
+            <div class="photo-box"><img src="2025sunmoom (50).jpg" alt="Work 50"></div>
+            <div class="photo-box"><img src="2025sunmoom (51).jpg" alt="Work 51"></div>
+            <div class="photo-box"><img src="2025sunmoom (52).jpg" alt="Work 52"></div>
+            <div class="photo-box"><img src="2025sunmoom (53).jpg" alt="Work 53"></div>
+            <div class="photo-box"><img src="2025sunmoom (54).jpg" alt="Work 54"></div>
+            <div class="photo-box"><img src="2025sunmoom (55).jpg" alt="Work 55"></div>
+            <div class="photo-box"><img src="2025sunmoom (56).jpg" alt="Work 56"></div>
+            <div class="photo-box"><img src="2025sunmoom (57).jpg" alt="Work 57"></div>
+            <div class="photo-box"><img src="2025sunmoom (58).jpg" alt="Work 58"></div>
+            <div class="photo-box"><img src="2025sunmoom (59).jpg" alt="Work 59"></div>
+            <div class="photo-box"><img src="2025sunmoom (60).jpg" alt="Work 60"></div>
+            <div class="photo-box"><img src="2025sunmoom (61).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="2025sunmoom (62).jpg" alt="Work 12"></div>
+            <div class="photo-box"><img src="2025sunmoom (63).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="2025sunmoom (64).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="2025sunmoom (65).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="2025sunmoom (66).jpg" alt="Work 16"></div>
+            <div class="photo-box"><img src="2025sunmoom (67).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="2025sunmoom (68).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="2025sunmoom (69).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="2025sunmoom (70).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="2025sunmoom (70).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="2025sunmoom (71).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="2025sunmoom (72).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="2025sunmoom (73).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="2025sunmoom (74).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="2025sunmoom (75).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="2025sunmoom (76).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="2025sunmoom (77).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="2025sunmoom (78).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="2025sunmoom (79).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="2025sunmoom (80).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="2025sunmoom (81).jpg" alt="Work 31"></div>
+            <div class="photo-box"><img src="2025sunmoom (82).jpg" alt="Work 32"></div>
+            <div class="photo-box"><img src="2025sunmoom (83).jpg" alt="Work 33"></div>
+            <div class="photo-box"><img src="2025sunmoom (84).jpg" alt="Work 34"></div>
+            <div class="photo-box"><img src="2025sunmoom (85).jpg" alt="Work 35"></div>
+            <div class="photo-box"><img src="2025sunmoom (86).jpg" alt="Work 36"></div>
+            <div class="photo-box"><img src="2025sunmoom (87).jpg" alt="Work 37"></div>
+            <div class="photo-box"><img src="2025sunmoom (88).jpg" alt="Work 38"></div>
+            <div class="photo-box"><img src="2025sunmoom (89).jpg" alt="Work 39"></div>
+            <div class="photo-box"><img src="2025sunmoom (90).jpg" alt="Work 40"></div>
+            <div class="photo-box"><img src="2025sunmoom (91).jpg" alt="Work 41"></div>
+            <div class="photo-box"><img src="2025sunmoom (92).jpg" alt="Work 42"></div>
+            <div class="photo-box"><img src="2025sunmoom (93).jpg" alt="Work 43"></div>
+            <div class="photo-box"><img src="2025sunmoom (94).jpg" alt="Work 44"></div>
+            <div class="photo-box"><img src="2025sunmoom (95).jpg" alt="Work 45"></div>
+            <div class="photo-box"><img src="2025sunmoom (96).jpg" alt="Work 46"></div>
+            <div class="photo-box"><img src="2025sunmoom (97).jpg" alt="Work 47"></div>
+            <div class="photo-box"><img src="2025sunmoom (98).jpg" alt="Work 48"></div>
+            <div class="photo-box"><img src="2025sunmoom (99).jpg" alt="Work 49"></div>
+            <div class="photo-box"><img src="2025sunmoom (100).jpg" alt="Work 50"></div>
+            </div>
+        </div>
+        <button class="back-btn" onclick="showPage('concert-detail')">← 返回列表</button>
+    </main>
+
+    <main id="mdwb-2025winter-detail" class="page">
+        <div class="work-display-header">
+            <h1>2025 歲末感恩草地音樂會 </h1>
+            <p class="english-title">2025 MDWB Concert On The Grass</p>
+            <p class="subtitle">PHOTOGRAPHY & COLOR</p>
+        </div>
+        <div class="flex justify-center mb-12">
+            <div class="w-full max-w-4xl relative"> 
+                <div class="relative overflow-hidden shadow-2xl transform aspect-[16/9]">
+                    <div id="universal-carousel" class="flex transition-transform duration-700 ease-in-out h-full">
+                        <img src="mdwb2025winter (1).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2025winter (2).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2025winter (3).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2025winter (6).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2025winter (14).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2025winter (21).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2025winter (24).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2025winter (38).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2025winter (36).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2025winter (40).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                    </div>
+
+                    <div class="absolute bottom-4 right-6 flex space-x-2 z-10">
+                        <button onclick="goToSlide(0)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(1)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(2)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(3)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(4)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(5)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(6)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(7)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(8)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(9)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(10)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-display-grid">
+
+            <div class="photo-box"><img src="mdwb2025winter (1).jpg" alt="Work 1"></div>
+            <div class="photo-box"><img src="mdwb2025winter (2).jpg" alt="Work 2"></div>
+            <div class="photo-box"><img src="mdwb2025winter (3).jpg" alt="Work 3"></div>
+            <div class="photo-box"><img src="mdwb2025winter (4).jpg" alt="Work 4"></div>
+            <div class="photo-box"><img src="mdwb2025winter (5).jpg" alt="Work 5"></div>
+            <div class="photo-box"><img src="mdwb2025winter (6).jpg" alt="Work 6"></div>
+            <div class="photo-box"><img src="mdwb2025winter (7).jpg" alt="Work 7"></div>
+            <div class="photo-box"><img src="mdwb2025winter (8).jpg" alt="Work 8"></div>
+            <div class="photo-box"><img src="mdwb2025winter (9).jpg" alt="Work 9"></div>
+            <div class="photo-box"><img src="mdwb2025winter (10).jpg" alt="Work 10"></div>
+            <div class="photo-box"><img src="mdwb2025winter (11).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="mdwb2025winter (12).jpg" alt="Work 12"></div>
+            <div class="photo-box"><img src="mdwb2025winter (13).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="mdwb2025winter (14).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="mdwb2025winter (15).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="mdwb2025winter (16).jpg" alt="Work 16"></div>
+            <div class="photo-box"><img src="mdwb2025winter (17).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="mdwb2025winter (18).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="mdwb2025winter (19).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="mdwb2025winter (20).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="mdwb2025winter (21).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="mdwb2025winter (22).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="mdwb2025winter (23).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="mdwb2025winter (24).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="mdwb2025winter (25).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="mdwb2025winter (26).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="mdwb2025winter (27).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="mdwb2025winter (28).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="mdwb2025winter (29).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="mdwb2025winter (30).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="mdwb2025winter (31).jpg" alt="Work 31"></div>
+            <div class="photo-box"><img src="mdwb2025winter (32).jpg" alt="Work 32"></div>
+            <div class="photo-box"><img src="mdwb2025winter (33).jpg" alt="Work 33"></div>
+            <div class="photo-box"><img src="mdwb2025winter (34).jpg" alt="Work 34"></div>
+            <div class="photo-box"><img src="mdwb2025winter (35).jpg" alt="Work 35"></div>
+            <div class="photo-box"><img src="mdwb2025winter (36).jpg" alt="Work 36"></div>
+            <div class="photo-box"><img src="mdwb2025winter (37).jpg" alt="Work 37"></div>
+            <div class="photo-box"><img src="mdwb2025winter (38).jpg" alt="Work 38"></div>
+            <div class="photo-box"><img src="mdwb2025winter (39).jpg" alt="Work 39"></div>
+            <div class="photo-box"><img src="mdwb2025winter (40).jpg" alt="Work 40"></div>
+        </div>
+        <button class="back-btn" onclick="showPage('concert-detail')">← 返回列表</button>
+    </main>
+
+    <main id="mdwb-2024winter-detail" class="page">
+        <div class="work-display-header">
+            <h1>2024 歲末感恩草地音樂會 </h1>
+            <p class="english-title">2024 MDWB Concert On The Grass</p>
+            <p class="subtitle">PHOTOGRAPHY & COLOR</p>
+        </div>
+        <div class="flex justify-center mb-12">
+            <div class="w-full max-w-4xl relative"> 
+                <div class="relative overflow-hidden shadow-2xl transform aspect-[16/9]">
+                    <div id="universal-carousel" class="flex transition-transform duration-700 ease-in-out h-full">
+                        <img src="mdwb2024winter (1).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2024winter (11).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2024winter (10).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2024winter (3).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2024winter (24).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2024winter (36).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2024winter (35).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2024winter (30).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2024winter (7).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2024winter (17).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                    </div>
+
+                    <div class="absolute bottom-4 right-6 flex space-x-2 z-10">
+                        <button onclick="goToSlide(0)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(1)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(2)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(3)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(4)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(5)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(6)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(7)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(8)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(9)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(10)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-display-grid">
+
+            <div class="photo-box"><img src="mdwb2024winter (1).jpg" alt="Work 1"></div>
+            <div class="photo-box"><img src="mdwb2024winter (2).jpg" alt="Work 2"></div>
+            <div class="photo-box"><img src="mdwb2024winter (3).jpg" alt="Work 3"></div>
+            <div class="photo-box"><img src="mdwb2024winter (4).jpg" alt="Work 4"></div>
+            <div class="photo-box"><img src="mdwb2024winter (5).jpg" alt="Work 5"></div>
+            <div class="photo-box"><img src="mdwb2024winter (6).jpg" alt="Work 6"></div>
+            <div class="photo-box"><img src="mdwb2024winter (7).jpg" alt="Work 7"></div>
+            <div class="photo-box"><img src="mdwb2024winter (8).jpg" alt="Work 8"></div>
+            <div class="photo-box"><img src="mdwb2024winter (9).jpg" alt="Work 9"></div>
+            <div class="photo-box"><img src="mdwb2024winter (10).jpg" alt="Work 10"></div>
+            <div class="photo-box"><img src="mdwb2024winter (11).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="mdwb2024winter (12).jpg" alt="Work 12"></div>
+            <div class="photo-box"><img src="mdwb2024winter (13).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="mdwb2024winter (14).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="mdwb2024winter (15).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="mdwb2024winter (16).jpg" alt="Work 16"></div>
+            <div class="photo-box"><img src="mdwb2024winter (17).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="mdwb2024winter (18).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="mdwb2024winter (19).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="mdwb2024winter (20).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="mdwb2024winter (21).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="mdwb2024winter (22).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="mdwb2024winter (23).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="mdwb2024winter (24).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="mdwb2024winter (25).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="mdwb2024winter (26).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="mdwb2024winter (27).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="mdwb2024winter (28).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="mdwb2024winter (29).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="mdwb2024winter (30).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="mdwb2024winter (31).jpg" alt="Work 31"></div>
+            <div class="photo-box"><img src="mdwb2024winter (32).jpg" alt="Work 32"></div>
+            <div class="photo-box"><img src="mdwb2024winter (33).jpg" alt="Work 33"></div>
+            <div class="photo-box"><img src="mdwb2024winter (34).jpg" alt="Work 34"></div>
+            <div class="photo-box"><img src="mdwb2024winter (35).jpg" alt="Work 35"></div>
+            <div class="photo-box"><img src="mdwb2024winter (36).jpg" alt="Work 36"></div>
+        </div>
+        <button class="back-btn" onclick="showPage('concert-detail')">← 返回列表</button>
+    </main>
+
+    <main id="mdwb-2023summer-detail" class="page">
+        <div class="work-display-header">
+            <h1>2023《藍色管風情》音樂會 </h1>
+            <p class="english-title">2023 MDWB Concert</p>
+            <p class="subtitle">PHOTOGRAPHY & COLOR</p>
+        </div>
+        <div class="flex justify-center mb-12"> 
+            <div class="w-full max-w-4xl relative"> 
+                <div class="relative overflow-hidden shadow-2xl transform aspect-[16/9]">
+                    <div id="universal-carousel" class="flex transition-transform duration-700 ease-in-out h-full">
+                        <img src="mdwb2023summer (1).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2023summer (5).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2023summer (7).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2023summer (11).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2023summer (132).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2023summer (20).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2023summer (24).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2023summer (28).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2023summer (40).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2023summer (52).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                    </div>
+
+                    <div class="absolute bottom-4 right-6 flex space-x-2 z-10">
+                        <button onclick="goToSlide(0)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(1)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(2)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(3)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(4)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(5)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(6)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(7)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(8)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(9)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(10)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-display-grid">
+            <div class="photo-box"><img src="mdwb2023summer (1).jpg" alt="Work 1"></div>
+            <div class="photo-box"><img src="mdwb2023summer (2).jpg" alt="Work 2"></div>
+            <div class="photo-box"><img src="mdwb2023summer (3).jpg" alt="Work 3"></div>
+            <div class="photo-box"><img src="mdwb2023summer (4).jpg" alt="Work 4"></div>
+            <div class="photo-box"><img src="mdwb2023summer (5).jpg" alt="Work 5"></div>
+            <div class="photo-box"><img src="mdwb2023summer (6).jpg" alt="Work 6"></div>
+            <div class="photo-box"><img src="mdwb2023summer (7).jpg" alt="Work 7"></div>
+            <div class="photo-box"><img src="mdwb2023summer (8).jpg" alt="Work 8"></div>
+            <div class="photo-box"><img src="mdwb2023summer (9).jpg" alt="Work 9"></div>
+            <div class="photo-box"><img src="mdwb2023summer (10).jpg" alt="Work 10"></div>
+            <div class="photo-box"><img src="mdwb2023summer (11).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="mdwb2023summer (12).jpg" alt="Work 12"></div>
+            <div class="photo-box"><img src="mdwb2023summer (13).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="mdwb2023summer (14).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="mdwb2023summer (15).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="mdwb2023summer (16).jpg" alt="Work 16"></div>
+            <div class="photo-box"><img src="mdwb2023summer (17).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="mdwb2023summer (18).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="mdwb2023summer (19).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="mdwb2023summer (20).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="mdwb2023summer (21).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="mdwb2023summer (22).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="mdwb2023summer (23).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="mdwb2023summer (24).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="mdwb2023summer (25).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="mdwb2023summer (26).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="mdwb2023summer (27).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="mdwb2023summer (28).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="mdwb2023summer (29).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="mdwb2023summer (30).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="mdwb2023summer (31).jpg" alt="Work 31"></div>
+            <div class="photo-box"><img src="mdwb2023summer (32).jpg" alt="Work 32"></div>
+            <div class="photo-box"><img src="mdwb2023summer (33).jpg" alt="Work 33"></div>
+            <div class="photo-box"><img src="mdwb2023summer (34).jpg" alt="Work 34"></div>
+            <div class="photo-box"><img src="mdwb2023summer (35).jpg" alt="Work 35"></div>
+            <div class="photo-box"><img src="mdwb2023summer (36).jpg" alt="Work 36"></div>
+            <div class="photo-box"><img src="mdwb2023summer (37).jpg" alt="Work 37"></div>
+            <div class="photo-box"><img src="mdwb2023summer (38).jpg" alt="Work 38"></div>
+            <div class="photo-box"><img src="mdwb2023summer (39).jpg" alt="Work 39"></div>
+            <div class="photo-box"><img src="mdwb2023summer (40).jpg" alt="Work 40"></div>
+            <div class="photo-box"><img src="mdwb2023summer (41).jpg" alt="Work 41"></div>
+            <div class="photo-box"><img src="mdwb2023summer (42).jpg" alt="Work 42"></div>
+            <div class="photo-box"><img src="mdwb2023summer (43).jpg" alt="Work 43"></div>
+            <div class="photo-box"><img src="mdwb2023summer (44).jpg" alt="Work 44"></div>
+            <div class="photo-box"><img src="mdwb2023summer (45).jpg" alt="Work 45"></div>
+            <div class="photo-box"><img src="mdwb2023summer (46).jpg" alt="Work 46"></div>
+            <div class="photo-box"><img src="mdwb2023summer (47).jpg" alt="Work 47"></div>
+            <div class="photo-box"><img src="mdwb2023summer (48).jpg" alt="Work 48"></div>
+            <div class="photo-box"><img src="mdwb2023summer (49).jpg" alt="Work 49"></div>
+            <div class="photo-box"><img src="mdwb2023summer (50).jpg" alt="Work 50"></div>
+            <div class="photo-box"><img src="mdwb2023summer (51).jpg" alt="Work 51"></div>
+            <div class="photo-box"><img src="mdwb2023summer (52).jpg" alt="Work 52"></div>
+            <div class="photo-box"><img src="mdwb2023summer (53).jpg" alt="Work 43"></div>
+            <div class="photo-box"><img src="mdwb2023summer (54).jpg" alt="Work 44"></div>
+            <div class="photo-box"><img src="mdwb2023summer (55).jpg" alt="Work 45"></div>
+            <div class="photo-box"><img src="mdwb2023summer (56).jpg" alt="Work 46"></div>
+            <div class="photo-box"><img src="mdwb2023summer (57).jpg" alt="Work 47"></div>
+            <div class="photo-box"><img src="mdwb2023summer (58).jpg" alt="Work 48"></div>
+            <div class="photo-box"><img src="mdwb2023summer (59).jpg" alt="Work 49"></div>
+            <div class="photo-box"><img src="mdwb2023summer (60).jpg" alt="Work 50"></div>
+        </div>
+        <button class="back-btn" onclick="showPage('concert-detail')">← 返回列表</button>
+    </main>
+
+    <main id="mdcm-2023summer-detail" class="page">
+        <div class="work-display-header">
+            <h1>2023《洄韻》音樂會 </h1>
+            <p class="english-title">2023 MDCM Concert</p>
+            <p class="subtitle">PHOTOGRAPHY & COLOR</p>
+        </div>
+        <div class="flex justify-center mb-12"> 
+            <div class="w-full max-w-4xl relative"> 
+                <div class="relative overflow-hidden shadow-2xl transform aspect-[16/9]">
+                    <div id="universal-carousel" class="flex transition-transform duration-700 ease-in-out h-full">
+                        <img src="mdcm2023summer (2).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdcm2023summer (7).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdcm2023summer (12).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdcm2023summer (16).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdcm2023summer (18).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdcm2023summer (36).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdcm2023summer (46).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdcm2023summer (54).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdcm2023summer (63).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdcm2023summer (72).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                    </div>
+
+                    <div class="absolute bottom-4 right-6 flex space-x-2 z-10">
+                        <button onclick="goToSlide(0)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(1)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(2)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(3)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(4)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(5)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(6)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(7)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(8)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(9)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(10)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-display-grid">
+
+            <div class="photo-box"><img src="mdcm2023summer (1).jpg" alt="Work 1"></div>
+            <div class="photo-box"><img src="mdcm2023summer (2).jpg" alt="Work 2"></div>
+            <div class="photo-box"><img src="mdcm2023summer (3).jpg" alt="Work 3"></div>
+            <div class="photo-box"><img src="mdcm2023summer (4).jpg" alt="Work 4"></div>
+            <div class="photo-box"><img src="mdcm2023summer (5).jpg" alt="Work 5"></div>
+            <div class="photo-box"><img src="mdcm2023summer (6).jpg" alt="Work 6"></div>
+            <div class="photo-box"><img src="mdcm2023summer (7).jpg" alt="Work 7"></div>
+            <div class="photo-box"><img src="mdcm2023summer (8).jpg" alt="Work 8"></div>
+            <div class="photo-box"><img src="mdcm2023summer (9).jpg" alt="Work 9"></div>
+            <div class="photo-box"><img src="mdcm2023summer (10).jpg" alt="Work 10"></div>
+            <div class="photo-box"><img src="mdcm2023summer (11).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="mdcm2023summer (12).jpg" alt="Work 12"></div>
+            <div class="photo-box"><img src="mdcm2023summer (13).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="mdcm2023summer (14).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="mdcm2023summer (15).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="mdcm2023summer (16).jpg" alt="Work 16"></div>
+            <div class="photo-box"><img src="mdcm2023summer (17).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="mdcm2023summer (18).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="mdcm2023summer (19).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="mdcm2023summer (20).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="mdcm2023summer (21).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="mdcm2023summer (22).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="mdcm2023summer (23).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="mdcm2023summer (24).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="mdcm2023summer (25).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="mdcm2023summer (26).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="mdcm2023summer (27).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="mdcm2023summer (28).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="mdcm2023summer (29).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="mdcm2023summer (30).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="mdcm2023summer (31).jpg" alt="Work 31"></div>
+            <div class="photo-box"><img src="mdcm2023summer (32).jpg" alt="Work 32"></div>
+            <div class="photo-box"><img src="mdcm2023summer (33).jpg" alt="Work 33"></div>
+            <div class="photo-box"><img src="mdcm2023summer (34).jpg" alt="Work 34"></div>
+            <div class="photo-box"><img src="mdcm2023summer (35).jpg" alt="Work 35"></div>
+            <div class="photo-box"><img src="mdcm2023summer (36).jpg" alt="Work 36"></div>
+            <div class="photo-box"><img src="mdcm2023summer (37).jpg" alt="Work 37"></div>
+            <div class="photo-box"><img src="mdcm2023summer (38).jpg" alt="Work 38"></div>
+            <div class="photo-box"><img src="mdcm2023summer (39).jpg" alt="Work 39"></div>
+            <div class="photo-box"><img src="mdcm2023summer (40).jpg" alt="Work 40"></div>
+            <div class="photo-box"><img src="mdcm2023summer (41).jpg" alt="Work 41"></div>
+            <div class="photo-box"><img src="mdcm2023summer (42).jpg" alt="Work 42"></div>
+            <div class="photo-box"><img src="mdcm2023summer (43).jpg" alt="Work 43"></div>
+            <div class="photo-box"><img src="mdcm2023summer (44).jpg" alt="Work 44"></div>
+            <div class="photo-box"><img src="mdcm2023summer (45).jpg" alt="Work 45"></div>
+            <div class="photo-box"><img src="mdcm2023summer (46).jpg" alt="Work 46"></div>
+            <div class="photo-box"><img src="mdcm2023summer (47).jpg" alt="Work 47"></div>
+            <div class="photo-box"><img src="mdcm2023summer (48).jpg" alt="Work 48"></div>
+            <div class="photo-box"><img src="mdcm2023summer (49).jpg" alt="Work 49"></div>
+            <div class="photo-box"><img src="mdcm2023summer (50).jpg" alt="Work 50"></div>
+            <div class="photo-box"><img src="mdcm2023summer (51).jpg" alt="Work 51"></div>
+            <div class="photo-box"><img src="mdcm2023summer (52).jpg" alt="Work 52"></div>
+            <div class="photo-box"><img src="mdcm2023summer (53).jpg" alt="Work 33"></div>
+            <div class="photo-box"><img src="mdcm2023summer (54).jpg" alt="Work 34"></div>
+            <div class="photo-box"><img src="mdcm2023summer (55).jpg" alt="Work 35"></div>
+            <div class="photo-box"><img src="mdcm2023summer (56).jpg" alt="Work 36"></div>
+            <div class="photo-box"><img src="mdcm2023summer (57).jpg" alt="Work 37"></div>
+            <div class="photo-box"><img src="mdcm2023summer (58).jpg" alt="Work 38"></div>
+            <div class="photo-box"><img src="mdcm2023summer (59).jpg" alt="Work 39"></div>
+            <div class="photo-box"><img src="mdcm2023summer (60).jpg" alt="Work 40"></div>
+            <div class="photo-box"><img src="mdcm2023summer (61).jpg" alt="Work 41"></div>
+            <div class="photo-box"><img src="mdcm2023summer (62).jpg" alt="Work 42"></div>
+            <div class="photo-box"><img src="mdcm2023summer (63).jpg" alt="Work 43"></div>
+            <div class="photo-box"><img src="mdcm2023summer (64).jpg" alt="Work 44"></div>
+            <div class="photo-box"><img src="mdcm2023summer (65).jpg" alt="Work 45"></div>
+            <div class="photo-box"><img src="mdcm2023summer (66).jpg" alt="Work 46"></div>
+            <div class="photo-box"><img src="mdcm2023summer (67).jpg" alt="Work 47"></div>
+            <div class="photo-box"><img src="mdcm2023summer (68).jpg" alt="Work 48"></div>
+            <div class="photo-box"><img src="mdcm2023summer (69).jpg" alt="Work 49"></div>
+            <div class="photo-box"><img src="mdcm2023summer (70).jpg" alt="Work 50"></div>
+            <div class="photo-box"><img src="mdcm2023summer (71).jpg" alt="Work 41"></div>
+            <div class="photo-box"><img src="mdcm2023summer (72).jpg" alt="Work 42"></div>
+            <div class="photo-box"><img src="mdcm2023summer (73).jpg" alt="Work 43"></div>
+            <div class="photo-box"><img src="mdcm2023summer (74).jpg" alt="Work 44"></div>
+            <div class="photo-box"><img src="mdcm2023summer (75).jpg" alt="Work 45"></div>
+            <div class="photo-box"><img src="mdcm2023summer (76).jpg" alt="Work 46"></div>
+            <div class="photo-box"><img src="mdcm2023summer (77).jpg" alt="Work 47"></div>
+            <div class="photo-box"><img src="mdcm2023summer (78).jpg" alt="Work 48"></div>
+            <div class="photo-box"><img src="mdcm2023summer (79).jpg" alt="Work 49"></div>
+            <div class="photo-box"><img src="mdcm2023summer (80).jpg" alt="Work 50"></div>
+        </div>
+        <button class="back-btn" onclick="showPage('concert-detail')">← 返回列表</button>
+    </main>
+
+    <main id="mdwb-2022summer-detail" class="page">
+        <div class="work-display-header">
+            <h1>2022《藍色管風情》音樂會 </h1>
+            <p class="english-title">2022 MDWB Concert</p>
+            <p class="subtitle">PHOTOGRAPHY & COLOR</p>
+        </div>
+        <div class="flex justify-center mb-12">
+            <div class="w-full max-w-4xl relative"> 
+                <div class="relative overflow-hidden shadow-2xl transform aspect-[16/9]">
+                    <div id="universal-carousel" class="flex transition-transform duration-700 ease-in-out h-full">
+                        <img src="mdwb2022summer (2).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2022summer (8).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2022summer (6).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2022summer (28).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2022summer (31).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2022summer (84).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2022summer (49).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2022summer (56).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2022summer (72).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="mdwb2022summer (66).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                    </div>
+
+                    <div class="absolute bottom-4 right-6 flex space-x-2 z-10">
+                        <button onclick="goToSlide(0)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(1)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(2)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(3)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(4)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(5)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(6)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(7)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(8)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(9)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(10)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-display-grid">
+            <div class="photo-box"><img src="mdwb2022summer (1).jpg" alt="Work 1"></div>
+            <div class="photo-box"><img src="mdwb2022summer (2).jpg" alt="Work 2"></div>
+            <div class="photo-box"><img src="mdwb2022summer (3).jpg" alt="Work 3"></div>
+            <div class="photo-box"><img src="mdwb2022summer (4).jpg" alt="Work 4"></div>
+            <div class="photo-box"><img src="mdwb2022summer (5).jpg" alt="Work 5"></div>
+            <div class="photo-box"><img src="mdwb2022summer (6).jpg" alt="Work 6"></div>
+            <div class="photo-box"><img src="mdwb2022summer (7).jpg" alt="Work 7"></div>
+            <div class="photo-box"><img src="mdwb2022summer (8).jpg" alt="Work 8"></div>
+            <div class="photo-box"><img src="mdwb2022summer (9).jpg" alt="Work 9"></div>
+            <div class="photo-box"><img src="mdwb2022summer (10).jpg" alt="Work 10"></div>
+            <div class="photo-box"><img src="mdwb2022summer (11).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="mdwb2022summer (12).jpg" alt="Work 12"></div>
+            <div class="photo-box"><img src="mdwb2022summer (13).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="mdwb2022summer (14).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="mdwb2022summer (15).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="mdwb2022summer (16).jpg" alt="Work 16"></div>
+            <div class="photo-box"><img src="mdwb2022summer (17).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="mdwb2022summer (18).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="mdwb2022summer (19).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="mdwb2022summer (20).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="mdwb2022summer (21).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="mdwb2022summer (22).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="mdwb2022summer (23).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="mdwb2022summer (24).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="mdwb2022summer (25).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="mdwb2022summer (26).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="mdwb2022summer (27).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="mdwb2022summer (28).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="mdwb2022summer (29).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="mdwb2022summer (30).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="mdwb2022summer (31).jpg" alt="Work 31"></div>
+            <div class="photo-box"><img src="mdwb2022summer (32).jpg" alt="Work 32"></div>
+            <div class="photo-box"><img src="mdwb2022summer (33).jpg" alt="Work 33"></div>
+            <div class="photo-box"><img src="mdwb2022summer (34).jpg" alt="Work 34"></div>
+            <div class="photo-box"><img src="mdwb2022summer (35).jpg" alt="Work 35"></div>
+            <div class="photo-box"><img src="mdwb2022summer (36).jpg" alt="Work 36"></div>
+            <div class="photo-box"><img src="mdwb2022summer (37).jpg" alt="Work 37"></div>
+            <div class="photo-box"><img src="mdwb2022summer (38).jpg" alt="Work 38"></div>
+            <div class="photo-box"><img src="mdwb2022summer (39).jpg" alt="Work 39"></div>
+            <div class="photo-box"><img src="mdwb2022summer (40).jpg" alt="Work 40"></div>
+            <div class="photo-box"><img src="mdwb2022summer (41).jpg" alt="Work 41"></div>
+            <div class="photo-box"><img src="mdwb2022summer (42).jpg" alt="Work 42"></div>
+            <div class="photo-box"><img src="mdwb2022summer (43).jpg" alt="Work 43"></div>
+            <div class="photo-box"><img src="mdwb2022summer (44).jpg" alt="Work 44"></div>
+            <div class="photo-box"><img src="mdwb2022summer (45).jpg" alt="Work 45"></div>
+            <div class="photo-box"><img src="mdwb2022summer (46).jpg" alt="Work 46"></div>
+            <div class="photo-box"><img src="mdwb2022summer (47).jpg" alt="Work 47"></div>
+            <div class="photo-box"><img src="mdwb2022summer (48).jpg" alt="Work 48"></div>
+            <div class="photo-box"><img src="mdwb2022summer (49).jpg" alt="Work 49"></div>
+            <div class="photo-box"><img src="mdwb2022summer (50).jpg" alt="Work 50"></div>
+            <div class="photo-box"><img src="mdwb2022summer (51).jpg" alt="Work 51"></div>
+            <div class="photo-box"><img src="mdwb2022summer (52).jpg" alt="Work 52"></div>
+            <div class="photo-box"><img src="mdwb2022summer (53).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="mdwb2022summer (54).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="mdwb2022summer (55).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="mdwb2022summer (56).jpg" alt="Work 16"></div>
+            <div class="photo-box"><img src="mdwb2022summer (57).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="mdwb2022summer (58).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="mdwb2022summer (59).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="mdwb2022summer (60).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="mdwb2022summer (61).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="mdwb2022summer (62).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="mdwb2022summer (63).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="mdwb2022summer (64).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="mdwb2022summer (65).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="mdwb2022summer (66).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="mdwb2022summer (67).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="mdwb2022summer (68).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="mdwb2022summer (69).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="mdwb2022summer (70).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="mdwb2022summer (71).jpg" alt="Work 31"></div>
+            <div class="photo-box"><img src="mdwb2022summer (72).jpg" alt="Work 32"></div>
+            <div class="photo-box"><img src="mdwb2022summer (73).jpg" alt="Work 33"></div>
+            <div class="photo-box"><img src="mdwb2022summer (74).jpg" alt="Work 34"></div>
+            <div class="photo-box"><img src="mdwb2022summer (75).jpg" alt="Work 35"></div>
+            <div class="photo-box"><img src="mdwb2022summer (76).jpg" alt="Work 36"></div>
+            <div class="photo-box"><img src="mdwb2022summer (77).jpg" alt="Work 37"></div>
+            <div class="photo-box"><img src="mdwb2022summer (78).jpg" alt="Work 38"></div>
+            <div class="photo-box"><img src="mdwb2022summer (79).jpg" alt="Work 39"></div>
+            <div class="photo-box"><img src="mdwb2022summer (80).jpg" alt="Work 40"></div>
+            <div class="photo-box"><img src="mdwb2022summer (81).jpg" alt="Work 41"></div>
+            <div class="photo-box"><img src="mdwb2022summer (82).jpg" alt="Work 42"></div>
+            <div class="photo-box"><img src="mdwb2022summer (83).jpg" alt="Work 43"></div>
+            <div class="photo-box"><img src="mdwb2022summer (84).jpg" alt="Work 44"></div>
+        </div>
+        <button class="back-btn" onclick="showPage('concert-detail')">← 返回列表</button>
+    </main>
+
+    <main id="mdcm-2022summer-detail" class="page">
+        <div class="work-display-header">
+            <h1>2022《漪循》音樂會 </h1>
+            <p class="english-title">2022 MDCM Concert</p>
+            <p class="subtitle">PHOTOGRAPHY & COLOR</p>
+        </div>
+        <div class="flex justify-center mb-12">
+            <div class="w-full max-w-4xl relative"> 
+                <div class="relative overflow-hidden shadow-2xl transform aspect-[16/9]">
+                    <div id="carousel" class="flex transition-transform duration-700 ease-in-out h-full">
+                        <img src="mdcm2022summer (35).jpg" class="photo-box">
+                        <img src="mdcm2022summer (29).jpg" class="photo-box">
+                        <img src="mdcm2022summer (1).jpg" class="photo-box">
+                        <img src="mdcm2022summer (16).jpg" class="photo-box">
+                        <img src="mdcm2022summer (3).jpg" class="photo-box">
+                        <img src="mdcm2022summer (25).jpg" class="photo-box">
+                        <img src="mdcm2022summer (37).jpg" class="photo-box">
+                        <img src="mdcm2022summer (27).jpg" class="photo-box">
+                        <img src="mdcm2022summer (51).jpg" class="photo-box">
+                        <img src="mdcm2022summer (52).jpg" class="photo-box">
+                    </div>
+
+                    <div class="absolute bottom-4 right-6 flex space-x-2 z-10">
+                        <button onclick="goToSlide(0)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(1)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(2)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(3)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(4)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(5)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(6)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(7)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(8)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(9)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(10)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="photo-display-grid">
+            <div class="photo-box"><img src="mdcm2022summer (1).jpg" alt="Work 1"></div>
+            <div class="photo-box"><img src="mdcm2022summer (2).jpg" alt="Work 2"></div>
+            <div class="photo-box"><img src="mdcm2022summer (3).jpg" alt="Work 3"></div>
+            <div class="photo-box"><img src="mdcm2022summer (4).jpg" alt="Work 4"></div>
+        
+            <div class="photo-box"><img src="mdcm2022summer (5).jpg" alt="Work 5"></div>
+            <div class="photo-box"><img src="mdcm2022summer (6).jpg" alt="Work 6"></div>
+            <div class="photo-box"><img src="mdcm2022summer (7).jpg" alt="Work 7"></div>
+            <div class="photo-box"><img src="mdcm2022summer (8).jpg" alt="Work 8"></div>
+        
+            <div class="photo-box"><img src="mdcm2022summer (9).jpg" alt="Work 9"></div>
+            <div class="photo-box"><img src="mdcm2022summer (10).jpg" alt="Work 10"></div>
+            <div class="photo-box"><img src="mdcm2022summer (11).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="mdcm2022summer (12).jpg" alt="Work 12"></div>
+        
+            <div class="photo-box"><img src="mdcm2022summer (13).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="mdcm2022summer (14).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="mdcm2022summer (15).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="mdcm2022summer (16).jpg" alt="Work 16"></div>
+        
+            <div class="photo-box"><img src="mdcm2022summer (17).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="mdcm2022summer (18).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="mdcm2022summer (19).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="mdcm2022summer (20).jpg" alt="Work 20"></div>
+        
+            <div class="photo-box"><img src="mdcm2022summer (21).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="mdcm2022summer (22).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="mdcm2022summer (23).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="mdcm2022summer (24).jpg" alt="Work 24"></div>
+        
+            <div class="photo-box"><img src="mdcm2022summer (25).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="mdcm2022summer (26).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="mdcm2022summer (27).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="mdcm2022summer (28).jpg" alt="Work 28"></div>
+        
+            <div class="photo-box"><img src="mdcm2022summer (29).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="mdcm2022summer (30).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="mdcm2022summer (31).jpg" alt="Work 31"></div>
+            <div class="photo-box"><img src="mdcm2022summer (32).jpg" alt="Work 32"></div>
+        
+            <div class="photo-box"><img src="mdcm2022summer (33).jpg" alt="Work 33"></div>
+            <div class="photo-box"><img src="mdcm2022summer (34).jpg" alt="Work 34"></div>
+            <div class="photo-box"><img src="mdcm2022summer (35).jpg" alt="Work 35"></div>
+            <div class="photo-box"><img src="mdcm2022summer (36).jpg" alt="Work 36"></div>
+        
+            <div class="photo-box"><img src="mdcm2022summer (37).jpg" alt="Work 37"></div>
+            <div class="photo-box"><img src="mdcm2022summer (38).jpg" alt="Work 38"></div>
+            <div class="photo-box"><img src="mdcm2022summer (39).jpg" alt="Work 39"></div>
+            <div class="photo-box"><img src="mdcm2022summer (40).jpg" alt="Work 40"></div>
+        
+            <div class="photo-box"><img src="mdcm2022summer (41).jpg" alt="Work 41"></div>
+            <div class="photo-box"><img src="mdcm2022summer (42).jpg" alt="Work 42"></div>
+            <div class="photo-box"><img src="mdcm2022summer (43).jpg" alt="Work 43"></div>
+            <div class="photo-box"><img src="mdcm2022summer (44).jpg" alt="Work 44"></div>
+        
+            <div class="photo-box"><img src="mdcm2022summer (45).jpg" alt="Work 45"></div>
+            <div class="photo-box"><img src="mdcm2022summer (46).jpg" alt="Work 46"></div>
+            <div class="photo-box"><img src="mdcm2022summer (47).jpg" alt="Work 47"></div>
+            <div class="photo-box"><img src="mdcm2022summer (48).jpg" alt="Work 48"></div>
+        
+            <div class="photo-box"><img src="mdcm2022summer (49).jpg" alt="Work 49"></div>
+            <div class="photo-box"><img src="mdcm2022summer (50).jpg" alt="Work 50"></div>
+            <div class="photo-box"><img src="mdcm2022summer (51).jpg" alt="Work 51"></div>
+            <div class="photo-box"><img src="mdcm2022summer (52).jpg" alt="Work 52"></div>
+        </div>
+        <button class="back-btn" onclick="showPage('concert-detail')">← 返回列表</button>
+    </main>
+
+    <main id="2025sakura-detail" class="page">
+        <div class="work-display-header">
+            <h1>2025 櫻花尋音計畫 Live Session </h1>
+            <p class="english-title">2025 Sakura Original Music Live Session Behind The Scenes</p>
+            <p class="subtitle">COLOR</p>
+        </div>
+        <div class="photo-display-grid grid-classic">
+            <div class="photo-box"><img src="2025sakura (1).png" alt="Work 1"></div>
+            <div class="photo-box"><img src="2025sakura (2).png" alt="Work 2"></div>
+            <div class="photo-box"><img src="2025sakura (3).png" alt="Work 3"></div>
+            </div>
+        <button class="back-btn" onclick="showPage('bts-detail')">← 返回列表</button>
+    </main>
+
+    <main id="2025sakurasummer-detail" class="page">
+        <div class="work-display-header">
+            <h1>2025 櫻花尋音計畫《最初的深空下》MV</h1>
+            <p class="english-title">2025 Sakura Original Music Video Behind The Scenes </p>
+            <p class="subtitle">COLOR</p>
+        </div>
+            <div class="photo-display-grid grid-classic">
+            <div class="photo-box"><img src="2025sakurasummer (1).png" alt="Work 1"></div>
+            <div class="photo-box"><img src="2025sakurasummer (2).png" alt="Work 2"></div>
+            <div class="photo-box"><img src="2025sakurasummer (3).png" alt="Work 3"></div>
+            <div class="photo-box"><img src="2025sakurasummer (4).png" alt="Work 4"></div>
+            <div class="photo-box"><img src="2025sakurasummer (5).png" alt="Work 4"></div>
+            <div class="photo-box"><img src="2025sakurasummer (6).png" alt="Work 4"></div>
+            <div class="photo-box"><img src="2025sakurasummer (7).png" alt="Work 4"></div>
+            <div class="photo-box"><img src="2025sakurasummer (8).png" alt="Work 4"></div>
+            <div class="photo-box"><img src="2025sakurasummer (9).png" alt="Work 4"></div>
+            <div class="photo-box"><img src="2025sakurasummer (10).png" alt="Work 4"></div>
+            <div class="photo-box"><img src="2025sakurasummer (11).png" alt="Work 4"></div>
+            <div class="photo-box"><img src="2025sakurasummer (12).png" alt="Work 4"></div>
+        </div>
+        <button class="back-btn" onclick="showPage('bts-detail')">← 返回列表</button>
+    </main>
+
+    <main id="2024sakurasummer-detail" class="page">
+        <div class="work-display-header">
+            <h1>2024 櫻花尋音計畫《未來的柔光》MV</h1>
+            <p class="english-title">2024 Sakura Original Music Video Behind The Scenes </p>
+            <p class="subtitle">PHOTOGRAPHY & COLOR</p>
+        </div>
+        <div class="multi-layout-container">
+            <div class="photo-row row-16-9">
+                <div class="photo-box"><img src="2024sakurasummer (1).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (2).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (3).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (4).jpg"></div>
+            </div>
+
+            <div class="photo-row row-2-3">
+                <div class="photo-box"><img src="2024sakurasummer (5).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (6).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (7).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (8).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (9).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (10).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (11).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (12).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (13).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (14).jpg"></div>
+            </div>
+
+            <div class="photo-row row-16-9">
+                <div class="photo-box"><img src="2024sakurasummer (15).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (16).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (17).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (18).jpg"></div>
+            </div>
+
+            <div class="photo-row row-2-3">
+                <div class="photo-box"><img src="2024sakurasummer (19).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (20).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (21).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (22).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (23).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (24).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (25).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (26).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (27).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (28).jpg"></div>
+            </div>
+
+            <div class="photo-row row-16-9">
+                <div class="photo-box"><img src="2024sakurasummer (29).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (30).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (31).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (32).jpg"></div>
+            </div>
+
+            <div class="photo-row row-2-3">
+                <div class="photo-box"><img src="2024sakurasummer (33).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (34).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (35).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (36).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (37).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (38).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (39).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (40).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (41).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (42).jpg"></div>
+            </div>
+
+            <div class="photo-row row-16-9">
+                <div class="photo-box"><img src="2024sakurasummer (43).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (44).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (45).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (46).jpg"></div>
+            </div>
+
+            <div class="photo-row row-2-3">
+                <div class="photo-box"><img src="2024sakurasummer (47).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (48).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (49).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (50).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (51).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (52).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (53).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (54).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (55).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (56).jpg"></div>
+            </div>
+
+            <div class="photo-row row-16-9">
+                <div class="photo-box"><img src="2024sakurasummer (57).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (58).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (59).jpg"></div>
+                <div class="photo-box"><img src="2024sakurasummer (60).jpg"></div>
+            </div>
+        </div>
+        <button class="back-btn" onclick="showPage('bts-detail')">← 返回列表</button>
+    </main>
+
+    <main id="2025wbbts-detail" class="page">
+        <div class="work-display-header">
+            <h1>2025《藍色管風情》音樂會</h1>
+            <p class="english-title">2025 MDWB Concert Behind The Stage </p>
+            <p class="subtitle">PHOTOGRAPHY & COLOR</p>
+        </div>
+        <div class="flex justify-center mb-12">
+            <div class="w-full max-w-4xl relative"> 
+                <div class="relative overflow-hidden shadow-2xl transform aspect-[16/9]">
+                    <div id="universal-carousel" class="flex transition-transform duration-700 ease-in-out h-full">
+                        <img src="2025wbbts (1).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2025wbbts (8).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2025wbbts (12).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2025wbbts (13).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2025wbbts (19).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2025wbbts (32).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2025wbbts (34).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2025wbbts (28).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2025wbbts (10).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2025wbbts (22).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                    </div>
+
+                <!-- 輪播導航點 -->
+                    <div class="absolute bottom-4 right-6 flex space-x-2 z-10">
+                        <button onclick="goToSlide(0)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(1)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(2)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(3)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(4)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(5)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(6)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(7)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(8)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(9)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(10)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-display-grid">
+            <!-- 重複此結構直到 (132) -->
+            <div class="photo-box"><img src="2025wbbts (1).jpg" alt="Work 1"></div>
+            <div class="photo-box"><img src="2025wbbts (2).jpg" alt="Work 2"></div>
+            <div class="photo-box"><img src="2025wbbts (3).jpg" alt="Work 3"></div>
+            <div class="photo-box"><img src="2025wbbts (4).jpg" alt="Work 4"></div>
+            <div class="photo-box"><img src="2025wbbts (5).jpg" alt="Work 5"></div>
+            <div class="photo-box"><img src="2025wbbts (6).jpg" alt="Work 6"></div>
+            <div class="photo-box"><img src="2025wbbts (7).jpg" alt="Work 7"></div>
+            <div class="photo-box"><img src="2025wbbts (8).jpg" alt="Work 8"></div>
+            <div class="photo-box"><img src="2025wbbts (9).jpg" alt="Work 9"></div>
+            <div class="photo-box"><img src="2025wbbts (10).jpg" alt="Work 10"></div>
+            <div class="photo-box"><img src="2025wbbts (11).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="2025wbbts (12).jpg" alt="Work 12"></div>
+            <div class="photo-box"><img src="2025wbbts (13).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="2025wbbts (14).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="2025wbbts (15).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="2025wbbts (16).jpg" alt="Work 16"></div>
+            <div class="photo-box"><img src="2025wbbts (17).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="2025wbbts (18).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="2025wbbts (19).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="2025wbbts (20).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="2025wbbts (21).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="2025wbbts (22).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="2025wbbts (23).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="2025wbbts (24).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="2025wbbts (25).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="2025wbbts (26).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="2025wbbts (27).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="2025wbbts (28).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="2025wbbts (29).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="2025wbbts (30).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="2025wbbts (31).jpg" alt="Work 31"></div>
+            <div class="photo-box"><img src="2025wbbts (32).jpg" alt="Work 32"></div>
+            <div class="photo-box"><img src="2025wbbts (33).jpg" alt="Work 33"></div>
+            <div class="photo-box"><img src="2025wbbts (34).jpg" alt="Work 34"></div>
+            <div class="photo-box"><img src="2025wbbts (35).jpg" alt="Work 35"></div>
+            <div class="photo-box"><img src="2025wbbts (36).jpg" alt="Work 36"></div>
+        </div>
+        <button class="back-btn" onclick="showPage('stage-detail')">← 返回列表</button>
+    </main>
+
+    <main id="2024wbbts-detail" class="page">
+        <div class="work-display-header">
+            <h1>2024《藍色管風情》音樂會</h1>
+            <p class="english-title">2024 MDWB Concert Behind The Stage </p>
+            <p class="subtitle">PHOTOGRAPHY & COLOR</p>
+        </div>
+        <div class="flex justify-center mb-12">
+            <div class="w-full max-w-4xl relative"> 
+                <div class="relative overflow-hidden shadow-2xl transform aspect-[16/9]">
+                    <div id="universal-carousel" class="flex transition-transform duration-700 ease-in-out h-full">
+                        <img src="2024wbbts (12).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024wbbts (57).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024wbbts (21).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024wbbts (23).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024wbbts (29).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024wbbts (84).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024wbbts (77).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024wbbts (68).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024wbbts (58).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024wbbts (59).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                    </div>
+
+                    <div class="absolute bottom-4 right-6 flex space-x-2 z-10">
+                        <button onclick="goToSlide(0)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(1)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(2)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(3)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(4)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(5)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(6)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(7)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(8)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(9)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(10)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-display-grid">
+
+            <div class="photo-box"><img src="2024wbbts (1).jpg" alt="Work 1"></div>
+            <div class="photo-box"><img src="2024wbbts (2).jpg" alt="Work 2"></div>
+            <div class="photo-box"><img src="2024wbbts (3).jpg" alt="Work 3"></div>
+            <div class="photo-box"><img src="2024wbbts (4).jpg" alt="Work 4"></div>
+            <div class="photo-box"><img src="2024wbbts (5).jpg" alt="Work 5"></div>
+            <div class="photo-box"><img src="2024wbbts (6).jpg" alt="Work 6"></div>
+            <div class="photo-box"><img src="2024wbbts (7).jpg" alt="Work 7"></div>
+            <div class="photo-box"><img src="2024wbbts (8).jpg" alt="Work 8"></div>
+            <div class="photo-box"><img src="2024wbbts (9).jpg" alt="Work 9"></div>
+            <div class="photo-box"><img src="2024wbbts (10).jpg" alt="Work 10"></div>
+            <div class="photo-box"><img src="2024wbbts (11).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="2024wbbts (12).jpg" alt="Work 12"></div>
+            <div class="photo-box"><img src="2024wbbts (13).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="2024wbbts (14).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="2024wbbts (15).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="2024wbbts (16).jpg" alt="Work 16"></div>
+            <div class="photo-box"><img src="2024wbbts (17).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="2024wbbts (18).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="2024wbbts (19).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="2024wbbts (20).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="2024wbbts (21).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="2024wbbts (22).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="2024wbbts (23).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="2024wbbts (24).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="2024wbbts (25).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="2024wbbts (26).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="2024wbbts (27).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="2024wbbts (28).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="2024wbbts (29).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="2024wbbts (30).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="2024wbbts (31).jpg" alt="Work 31"></div>
+            <div class="photo-box"><img src="2024wbbts (32).jpg" alt="Work 32"></div>
+            <div class="photo-box"><img src="2024wbbts (33).jpg" alt="Work 33"></div>
+            <div class="photo-box"><img src="2024wbbts (34).jpg" alt="Work 34"></div>
+            <div class="photo-box"><img src="2024wbbts (35).jpg" alt="Work 35"></div>
+            <div class="photo-box"><img src="2024wbbts (36).jpg" alt="Work 36"></div>
+            <div class="photo-box"><img src="2024wbbts (37).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="2024wbbts (38).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="2024wbbts (39).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="2024wbbts (40).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="2024wbbts (41).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="2024wbbts (42).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="2024wbbts (43).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="2024wbbts (44).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="2024wbbts (45).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="2024wbbts (46).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="2024wbbts (47).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="2024wbbts (48).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="2024wbbts (49).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="2024wbbts (50).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="2024wbbts (51).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="2024wbbts (52).jpg" alt="Work 12"></div>
+            <div class="photo-box"><img src="2024wbbts (53).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="2024wbbts (54).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="2024wbbts (55).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="2024wbbts (56).jpg" alt="Work 16"></div>
+            <div class="photo-box"><img src="2024wbbts (57).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="2024wbbts (58).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="2024wbbts (59).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="2024wbbts (60).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="2024wbbts (61).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="2024wbbts (62).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="2024wbbts (63).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="2024wbbts (64).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="2024wbbts (65).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="2024wbbts (66).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="2024wbbts (67).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="2024wbbts (68).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="2024wbbts (69).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="2024wbbts (70).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="2024wbbts (71).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="2024wbbts (72).jpg" alt="Work 12"></div>
+            <div class="photo-box"><img src="2024wbbts (73).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="2024wbbts (74).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="2024wbbts (75).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="2024wbbts (76).jpg" alt="Work 16"></div>
+            <div class="photo-box"><img src="2024wbbts (77).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="2024wbbts (78).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="2024wbbts (79).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="2024wbbts (80).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="2024wbbts (81).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="2024wbbts (82).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="2024wbbts (83).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="2024wbbts (84).jpg" alt="Work 24"></div>
+        </div>
+        <button class="back-btn" onclick="showPage('stage-detail')">← 返回列表</button>
+    </main>
+
+    <main id="2024winterbts-detail" class="page">
+        <div class="work-display-header">
+            <h1>2024 歲末感恩草地音樂會</h1>
+            <p class="english-title">2024 MDWB Concert On The Grass Rehersal</p>
+            <p class="subtitle">PHOTOGRAPHY & COLOR</p>
+        </div>
+        <div class="flex justify-center mb-12">
+            <div class="w-full max-w-4xl relative"> 
+                <div class="relative overflow-hidden shadow-2xl transform aspect-[16/9]">
+                    <div id="universal-carousel" class="flex transition-transform duration-700 ease-in-out h-full">
+                        <img src="2024winterbts (23).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024winterbts (27).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024winterbts (28).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024winterbts (30).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024winterbts (6).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024winterbts (8).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024winterbts (41).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024winterbts (52).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024winterbts (45).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024winterbts (18).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                    </div>
+
+                    <div class="absolute bottom-4 right-6 flex space-x-2 z-10">
+                        <button onclick="goToSlide(0)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(1)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(2)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(3)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(4)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(5)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(6)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(7)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(8)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(9)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(10)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-display-grid">
+
+            <div class="photo-box"><img src="2024winterbts (1).jpg" alt="Work 1"></div>
+            <div class="photo-box"><img src="2024winterbts (2).jpg" alt="Work 2"></div>
+            <div class="photo-box"><img src="2024winterbts (3).jpg" alt="Work 3"></div>
+            <div class="photo-box"><img src="2024winterbts (4).jpg" alt="Work 4"></div>
+            <div class="photo-box"><img src="2024winterbts (5).jpg" alt="Work 5"></div>
+            <div class="photo-box"><img src="2024winterbts (6).jpg" alt="Work 6"></div>
+            <div class="photo-box"><img src="2024winterbts (7).jpg" alt="Work 7"></div>
+            <div class="photo-box"><img src="2024winterbts (8).jpg" alt="Work 8"></div>
+            <div class="photo-box"><img src="2024winterbts (9).jpg" alt="Work 9"></div>
+            <div class="photo-box"><img src="2024winterbts (10).jpg" alt="Work 10"></div>
+            <div class="photo-box"><img src="2024winterbts (11).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="2024winterbts (12).jpg" alt="Work 12"></div>
+            <div class="photo-box"><img src="2024winterbts (13).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="2024winterbts (14).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="2024winterbts (15).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="2024winterbts (16).jpg" alt="Work 16"></div>
+            <div class="photo-box"><img src="2024winterbts (17).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="2024winterbts (18).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="2024winterbts (19).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="2024winterbts (20).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="2024winterbts (21).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="2024winterbts (22).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="2024winterbts (23).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="2024winterbts (24).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="2024winterbts (25).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="2024winterbts (26).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="2024winterbts (27).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="2024winterbts (28).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="2024winterbts (29).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="2024winterbts (30).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="2024winterbts (31).jpg" alt="Work 31"></div>
+            <div class="photo-box"><img src="2024winterbts (32).jpg" alt="Work 32"></div>
+            <div class="photo-box"><img src="2024winterbts (33).jpg" alt="Work 33"></div>
+            <div class="photo-box"><img src="2024winterbts (34).jpg" alt="Work 34"></div>
+            <div class="photo-box"><img src="2024winterbts (35).jpg" alt="Work 35"></div>
+            <div class="photo-box"><img src="2024winterbts (36).jpg" alt="Work 36"></div>
+            <div class="photo-box"><img src="2024winterbts (37).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="2024winterbts (38).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="2024winterbts (39).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="2024winterbts (40).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="2024winterbts (41).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="2024winterbts (42).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="2024winterbts (43).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="2024winterbts (44).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="2024winterbts (45).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="2024winterbts (46).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="2024winterbts (47).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="2024winterbts (48).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="2024winterbts (49).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="2024winterbts (50).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="2024winterbts (51).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="2024winterbts (52).jpg" alt="Work 12"></div>
+            <div class="photo-box"><img src="2024winterbts (53).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="2024winterbts (54).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="2024winterbts (55).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="2024winterbts (56).jpg" alt="Work 16"></div>
+        </div>
+        <button class="back-btn" onclick="showPage('stage-detail')">← 返回列表</button>
+    </main>
+
+    <main id="2024event-detail" class="page">
+        <div class="work-display-header">
+            <h1>2024 反毒主題曲歌手頒獎典禮暨發表會</h1>
+            <p class="english-title">2024 Anti-drug Theme Song Singer Award Ceremony</p>
+            <p class="subtitle">PHOTOGRAPHY & COLOR</p>
+        </div>
+        <div class="flex justify-center mb-12">
+            <div class="w-full max-w-4xl relative"> 
+                <div class="relative overflow-hidden shadow-2xl transform aspect-[16/9]">
+                    <div id="universal-carousel" class="flex transition-transform duration-700 ease-in-out h-full">
+                        <img src="2024event (4).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024event (1).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024event (3).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024event (13).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024event (31).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024event (56).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024event (47).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024event (68).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024event (77).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2024event (88).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                    </div>
+
+                    <div class="absolute bottom-4 right-6 flex space-x-2 z-10">
+                        <button onclick="goToSlide(0)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(1)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(2)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(3)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(4)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(5)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(6)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(7)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(8)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(9)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(10)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-display-grid">
+
+            <div class="photo-box"><img src="2024event (1).jpg" alt="Work 1"></div>
+            <div class="photo-box"><img src="2024event (2).jpg" alt="Work 2"></div>
+            <div class="photo-box"><img src="2024event (3).jpg" alt="Work 3"></div>
+            <div class="photo-box"><img src="2024event (4).jpg" alt="Work 4"></div>
+            <div class="photo-box"><img src="2024event (5).jpg" alt="Work 5"></div>
+            <div class="photo-box"><img src="2024event (6).jpg" alt="Work 6"></div>
+            <div class="photo-box"><img src="2024event (7).jpg" alt="Work 7"></div>
+            <div class="photo-box"><img src="2024event (8).jpg" alt="Work 8"></div>
+            <div class="photo-box"><img src="2024event (9).jpg" alt="Work 9"></div>
+            <div class="photo-box"><img src="2024event (10).jpg" alt="Work 10"></div>
+            <div class="photo-box"><img src="2024event (11).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="2024event (12).jpg" alt="Work 12"></div>
+            <div class="photo-box"><img src="2024event (13).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="2024event (14).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="2024event (15).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="2024event (16).jpg" alt="Work 16"></div>
+            <div class="photo-box"><img src="2024event (17).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="2024event (18).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="2024event (19).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="2024event (20).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="2024event (21).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="2024event (22).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="2024event (23).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="2024event (24).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="2024event (25).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="2024event (26).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="2024event (27).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="2024event (28).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="2024event (29).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="2024event (30).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="2024event (31).jpg" alt="Work 31"></div>
+            <div class="photo-box"><img src="2024event (32).jpg" alt="Work 32"></div>
+            <div class="photo-box"><img src="2024event (33).jpg" alt="Work 33"></div>
+            <div class="photo-box"><img src="2024event (34).jpg" alt="Work 34"></div>
+            <div class="photo-box"><img src="2024event (35).jpg" alt="Work 35"></div>
+            <div class="photo-box"><img src="2024event (36).jpg" alt="Work 36"></div>
+            <div class="photo-box"><img src="2024event (37).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="2024event (38).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="2024event (39).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="2024event (40).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="2024event (41).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="2024event (42).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="2024event (43).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="2024event (44).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="2024event (45).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="2024event (46).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="2024event (47).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="2024event (48).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="2024event (49).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="2024event (50).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="2024event (51).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="2024event (52).jpg" alt="Work 12"></div>
+            <div class="photo-box"><img src="2024event (53).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="2024event (54).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="2024event (55).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="2024event (56).jpg" alt="Work 16"></div>
+            <div class="photo-box"><img src="2024event (57).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="2024event (58).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="2024event (59).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="2024event (60).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="2024event (61).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="2024event (62).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="2024event (63).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="2024event (64).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="2024event (65).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="2024event (66).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="2024event (67).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="2024event (68).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="2024event (69).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="2024event (70).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="2024event (71).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="2024event (72).jpg" alt="Work 12"></div>
+            <div class="photo-box"><img src="2024event (73).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="2024event (74).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="2024event (75).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="2024event (76).jpg" alt="Work 16"></div>
+            <div class="photo-box"><img src="2024event (77).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="2024event (78).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="2024event (79).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="2024event (80).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="2024event (81).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="2024event (82).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="2024event (83).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="2024event (84).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="2024event (85).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="2024event (86).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="2024event (87).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="2024event (88).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="2024event (89).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="2024event (90).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="2024event (91).jpg" alt="Work 31"></div>
+            <div class="photo-box"><img src="2024event (92).jpg" alt="Work 32"></div>
+            <div class="photo-box"><img src="2024event (93).jpg" alt="Work 33"></div>
+            <div class="photo-box"><img src="2024event (94).jpg" alt="Work 34"></div>
+            <div class="photo-box"><img src="2024event (95).jpg" alt="Work 35"></div>
+            <div class="photo-box"><img src="2024event (96).jpg" alt="Work 36"></div>
+            <div class="photo-box"><img src="2024event (97).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="2024event (98).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="2024event (99).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="2024event (100).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="2024event (101).jpg" alt="Work 1"></div>
+            <div class="photo-box"><img src="2024event (102).jpg" alt="Work 2"></div>
+            <div class="photo-box"><img src="2024event (103).jpg" alt="Work 3"></div>
+            <div class="photo-box"><img src="2024event (104).jpg" alt="Work 4"></div>
+            <div class="photo-box"><img src="2024event (105).jpg" alt="Work 5"></div>
+            <div class="photo-box"><img src="2024event (106).jpg" alt="Work 6"></div>
+            <div class="photo-box"><img src="2024event (107).jpg" alt="Work 7"></div>
+            <div class="photo-box"><img src="2024event (108).jpg" alt="Work 8"></div>
+            <div class="photo-box"><img src="2024event (109).jpg" alt="Work 9"></div>
+            <div class="photo-box"><img src="2024event (110).jpg" alt="Work 10"></div>
+            <div class="photo-box"><img src="2024event (111).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="2024event (112).jpg" alt="Work 12"></div>
+            <div class="photo-box"><img src="2024event (113).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="2024event (114).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="2024event (115).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="2024event (116).jpg" alt="Work 16"></div>
+            <div class="photo-box"><img src="2024event (117).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="2024event (118).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="2024event (119).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="2024event (120).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="2024event (121).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="2024event (122).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="2024event (123).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="2024event (124).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="2024event (125).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="2024event (126).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="2024event (127).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="2024event (128).jpg" alt="Work 28"></div>
+        </div>
+        <button class="back-btn" onclick="showPage('event-detail')">← 返回列表</button>
+    </main>
+
+    <main id="2023event-detail" class="page">
+        <div class="work-display-header">
+            <h1>2023 大眾傳播學系學會體育競賽</h1>
+            <p class="english-title">2023 PUMC Sports Competition</p>
+            <p class="subtitle">PHOTOGRAPHY & COLOR</p>
+        </div>
+        <div class="flex justify-center mb-12"> 
+            <div class="w-full max-w-4xl relative"> 
+                <div class="relative overflow-hidden shadow-2xl transform aspect-[16/9]">
+                    <div id="universal-carousel" class="flex transition-transform duration-700 ease-in-out h-full">
+                        <img src="2023event (5).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2023event (11).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2023event (24).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2023event (29).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2023event (33).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2023event (58).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2023event (92).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2023event (80).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2023event (88).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                        <img src="2023event (82).jpg" class="photo-box carousel-item w-full flex-shrink-0 object-cover">
+                    </div>
+
+                <!-- 輪播導航點 -->
+                    <div class="absolute bottom-4 right-6 flex space-x-2 z-10">
+                        <button onclick="goToSlide(0)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(1)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(2)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(3)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(4)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(5)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(6)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(7)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(8)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(9)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                        <button onclick="goToSlide(10)" class="dot w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-all"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-display-grid">
+            <!-- 重複此結構直到 (132) -->
+            <div class="photo-box"><img src="2023event (1).jpg" alt="Work 1"></div>
+            <div class="photo-box"><img src="2023event (2).jpg" alt="Work 2"></div>
+            <div class="photo-box"><img src="2023event (3).jpg" alt="Work 3"></div>
+            <div class="photo-box"><img src="2023event (4).jpg" alt="Work 4"></div>
+            <div class="photo-box"><img src="2023event (5).jpg" alt="Work 5"></div>
+            <div class="photo-box"><img src="2023event (6).jpg" alt="Work 6"></div>
+            <div class="photo-box"><img src="2023event (7).jpg" alt="Work 7"></div>
+            <div class="photo-box"><img src="2023event (8).jpg" alt="Work 8"></div>
+            <div class="photo-box"><img src="2023event (9).jpg" alt="Work 9"></div>
+            <div class="photo-box"><img src="2023event (10).jpg" alt="Work 10"></div>
+            <div class="photo-box"><img src="2023event (11).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="2023event (12).jpg" alt="Work 12"></div>
+            <div class="photo-box"><img src="2023event (13).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="2023event (14).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="2023event (15).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="2023event (16).jpg" alt="Work 16"></div>
+            <div class="photo-box"><img src="2023event (17).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="2023event (18).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="2023event (19).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="2023event (20).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="2023event (21).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="2023event (22).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="2023event (23).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="2023event (24).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="2023event (25).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="2023event (26).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="2023event (27).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="2023event (28).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="2023event (29).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="2023event (30).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="2023event (31).jpg" alt="Work 31"></div>
+            <div class="photo-box"><img src="2023event (32).jpg" alt="Work 32"></div>
+            <div class="photo-box"><img src="2023event (33).jpg" alt="Work 33"></div>
+            <div class="photo-box"><img src="2023event (34).jpg" alt="Work 34"></div>
+            <div class="photo-box"><img src="2023event (35).jpg" alt="Work 35"></div>
+            <div class="photo-box"><img src="2023event (36).jpg" alt="Work 36"></div>
+            <div class="photo-box"><img src="2023event (37).jpg" alt="Work 7"></div>
+            <div class="photo-box"><img src="2023event (38).jpg" alt="Work 8"></div>
+            <div class="photo-box"><img src="2023event (39).jpg" alt="Work 9"></div>
+            <div class="photo-box"><img src="2023event (40).jpg" alt="Work 10"></div>
+            <div class="photo-box"><img src="2023event (41).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="2023event (42).jpg" alt="Work 12"></div>
+            <div class="photo-box"><img src="2023event (43).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="2023event (44).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="2023event (45).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="2023event (46).jpg" alt="Work 16"></div>
+            <div class="photo-box"><img src="2023event (47).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="2023event (48).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="2023event (49).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="2023event (50).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="2023event (51).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="2023event (52).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="2023event (53).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="2023event (54).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="2023event (55).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="2023event (56).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="2023event (57).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="2023event (58).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="2023event (59).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="2023event (60).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="2023event (61).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="2023event (62).jpg" alt="Work 12"></div>
+            <div class="photo-box"><img src="2023event (63).jpg" alt="Work 13"></div>
+            <div class="photo-box"><img src="2023event (64).jpg" alt="Work 14"></div>
+            <div class="photo-box"><img src="2023event (65).jpg" alt="Work 15"></div>
+            <div class="photo-box"><img src="2023event (66).jpg" alt="Work 16"></div>
+            <div class="photo-box"><img src="2023event (67).jpg" alt="Work 17"></div>
+            <div class="photo-box"><img src="2023event (68).jpg" alt="Work 18"></div>
+            <div class="photo-box"><img src="2023event (69).jpg" alt="Work 19"></div>
+            <div class="photo-box"><img src="2023event (70).jpg" alt="Work 20"></div>
+            <div class="photo-box"><img src="2023event (71).jpg" alt="Work 21"></div>
+            <div class="photo-box"><img src="2023event (72).jpg" alt="Work 22"></div>
+            <div class="photo-box"><img src="2023event (73).jpg" alt="Work 23"></div>
+            <div class="photo-box"><img src="2023event (74).jpg" alt="Work 24"></div>
+            <div class="photo-box"><img src="2023event (75).jpg" alt="Work 25"></div>
+            <div class="photo-box"><img src="2023event (76).jpg" alt="Work 26"></div>
+            <div class="photo-box"><img src="2023event (77).jpg" alt="Work 27"></div>
+            <div class="photo-box"><img src="2023event (78).jpg" alt="Work 28"></div>
+            <div class="photo-box"><img src="2023event (79).jpg" alt="Work 29"></div>
+            <div class="photo-box"><img src="2023event (80).jpg" alt="Work 30"></div>
+            <div class="photo-box"><img src="2023event (81).jpg" alt="Work 31"></div>
+            <div class="photo-box"><img src="2023event (82).jpg" alt="Work 32"></div>
+            <div class="photo-box"><img src="2023event (83).jpg" alt="Work 33"></div>
+            <div class="photo-box"><img src="2023event (84).jpg" alt="Work 34"></div>
+            <div class="photo-box"><img src="2023event (85).jpg" alt="Work 35"></div>
+            <div class="photo-box"><img src="2023event (86).jpg" alt="Work 36"></div>
+            <div class="photo-box"><img src="2023event (87).jpg" alt="Work 7"></div>
+            <div class="photo-box"><img src="2023event (88).jpg" alt="Work 8"></div>
+            <div class="photo-box"><img src="2023event (89).jpg" alt="Work 9"></div>
+            <div class="photo-box"><img src="2023event (90).jpg" alt="Work 10"></div>
+            <div class="photo-box"><img src="2023event (91).jpg" alt="Work 11"></div>
+            <div class="photo-box"><img src="2023event (92).jpg" alt="Work 12"></div>
+        </div>
+        <button class="back-btn" onclick="showPage('event-detail')">← 返回列表</button>
+    </main>
+
+    <main id="2025wbconcertvideo-detail" class="page">
+        <div class="work-display-header">
+            <h1>2025《藍色管風情》音樂會</h1>
+            <p class="english-title">2025 MDWB Concert</p>
+            <p class="subtitle">VIDEOGRAPHY & COLOR & EDIT</p>
+        </div>
+
+        <div class='embed-container' id="video-placeholder" onclick="loadVideo()" style="max-width: 1200px; margin: 0 auto 60px; cursor:pointer;">
+         <img src="homepage2 (4).jpg" style="width:100%; display:block;" alt="點擊播放影片">
+            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); color:white; font-size:50px; pointer-events:none;">▶</div>
+        </div>
+
+        <button class="back-btn" onclick="showPage('v-event-detail')">← 返回列表</button>
+    </main>
+    <main id="2025wbwintervideo-detail" class="page">
+        <div class="work-display-header">
+            <h1>2025 嘉義市國際管樂節</h1>
+            <p class="english-title">2025 MDWB Chiayi City International Band Festival</p>
+            <p class="subtitle">VIDEOGRAPHY & COLOR & EDIT</p>
+        </div>
+
+        <div class="embed-container" id="video-placeholder-2" onclick="loadVideoTwo()" style="max-width: 1200px; margin: 0 auto 60px; cursor:pointer;">
+            <img src="homepage2 (13).jpg" style="width:100%; display:block;" alt="點擊播放影片">
+            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); color:white; font-size:50px; pointer-events:none;">▶</div>
+        </div>
+
+        <button class="back-btn" onclick="showPage('v-event-detail')">← 返回列表</button>
+    </main>
+
+    <main id="mv1-detail" class="page">
+        <div class="work-display-header">
+            <h1>櫻花尋音計畫 –《聽說》</h1>
+            <p class="english-title">Sakura Original Music - All Things Find Their Place</p>
+            <p class="subtitle">VIDEOGRAPHY & COLOR & EDIT</p>
+        </div>
+
+        <div class="embed-container" id="video-placeholder-3" onclick="loadVideoThree()" style="max-width: 1200px; margin: 0 auto 60px; cursor:pointer;">
+            <img src="聽說.png" style="width:100%; display:block;" alt="點擊播放影片">
+            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); color:white; font-size:50px; pointer-events:none;">▶</div>
+        </div>
+
+        <button class="back-btn" onclick="showPage('v-mv-detail')">← 返回列表</button>
+    </main>
+
+    <main id="mv2-detail" class="page">
+        <div class="work-display-header">
+            <h1>櫻花尋音計畫 –《無以名狀》</h1>
+            <p class="english-title">Sakura Original Music – Dreaming While We Live</p>
+            <p class="subtitle">VIDEOGRAPHY & COLOR & EDIT</p>
+        </div>
+
+        <div class="embed-container" id="video-placeholder-4" onclick="loadVideoFour()" style="max-width: 1200px; margin: 0 auto 60px; cursor:pointer;">
+            <img src="無以名狀.png" style="width:100%; display:block;" alt="點擊播放影片">
+            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); color:white; font-size:50px; pointer-events:none;">▶</div>
+        </div>
+
+        <button class="back-btn" onclick="showPage('v-mv-detail')">← 返回列表</button>
+    </main>
+
+    <main id="mv3-detail" class="page">
+        <div class="work-display-header">
+         <h1>男孩別哭 –《夢醒》</h1>
+            <p class="english-title">Boys Don't Cry – Those We Have Dreamed</p>
+            <p class="subtitle">VIDEOGRAPHY & COLOR & EDIT</p>
+        </div>
+
+        <div class="embed-container" id="video-placeholder-5" onclick="loadVideoFive()" style="max-width: 1200px; margin: 0 auto 60px; cursor:pointer;">
+            <img src="夢醒.png" style="width:100%; display:block;" alt="點擊播放影片">
+            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); color:white; font-size:50px; pointer-events:none;">▶</div>
+        </div>
+
+        <button class="back-btn" onclick="showPage('v-mv-detail')">← 返回列表</button>
+    </main>
+
+    <main id="mv4-detail" class="page">
+        <div class="work-display-header">
+            <h1>櫻花尋音計畫 –《致我們與我們的歌》</h1>
+            <p class="english-title">Sakura Original Music - Our Song, Our Story</p>
+            <p class="subtitle">VIDEOGRAPHY & COLOR & EDIT</p>
+        </div>
+
+        <div class="embed-container" id="video-placeholder-6" onclick="loadVideoSix()" style="max-width: 1200px; margin: 0 auto 60px; cursor:pointer;">
+            <img src="致我們與我們的歌.png" style="width:100%; display:block;" alt="點擊播放影片">
+            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); color:white; font-size:50px; pointer-events:none;">▶</div>
+        </div>
+
+        <button class="back-btn" onclick="showPage('v-mv-detail')">← 返回列表</button>
+    </main>
+
+    <main id="mv5-detail" class="page">
+        <div class="work-display-header">
+            <h1>櫻花尋音計畫 –《昔日夢旁》</h1>
+            <p class="english-title">Sakura Original Music - After the Dreams Have Faded</p>
+            <p class="subtitle">VIDEOGRAPHY & COLOR & EDIT</p>
+        </div>
+
+        <div class="embed-container" id="video-placeholder-7" onclick="loadVideoSeven()" style="max-width: 1200px; margin: 0 auto 60px; cursor:pointer;">
+            <img src="昔日夢旁.png" style="width:100%; display:block;" alt="點擊播放影片">
+            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); color:white; font-size:50px; pointer-events:none;">▶</div>
+        </div>
+
+        <button class="back-btn" onclick="showPage('v-mv-detail')">← 返回列表</button>
+    </main>
+
+    <main id="xsy1-detail" class="page">
+        <div class="work-display-header">
+            <h1>櫻花尋音計畫 蕭舒云 –《未竟盛夏》</h1>
+            <p class="english-title">Sakura Original Music – Summer Days That Still Glow Cover by XSY</p>
+            <p class="subtitle">VIDEOGRAPHY & COLOR & EDIT</p>
+        </div>
+
+        <div class="embed-container" id="video-placeholder-8" onclick="loadVideoEight()" style="max-width: 1200px; margin: 0 auto 60px; cursor:pointer;">
+            <img src="未竟盛夏.jpg" style="width:100%; display:block;" alt="點擊播放影片">
+            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); color:white; font-size:50px; pointer-events:none;">▶</div>
+        </div>
+
+        <button class="back-btn" onclick="showPage('v-live-detail')">← 返回列表</button>
+    </main>
+
+    <main id="xsy2-detail" class="page">
+        <div class="work-display-header">
+            <h1>櫻花尋音計畫 蕭舒云 –《最初的深空下》</h1>
+            <p class="english-title">Sakura Original Music – Pages In The Wind Cover by XSY</p>
+            <p class="subtitle">VIDEOGRAPHY & COLOR & EDIT</p>
+        </div>
+
+        <div class="embed-container" id="video-placeholder-9" onclick="loadVideoNine()" style="max-width: 1200px; margin: 0 auto 60px; cursor:pointer;">
+            <img src="最初的深空下.jpg" style="width:100%; display:block;" alt="點擊播放影片">
+            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); color:white; font-size:50px; pointer-events:none;">▶</div>
+        </div>
+
+        <button class="back-btn" onclick="showPage('v-live-detail')">← 返回列表</button>
+    </main>
+
+    <main id="xsy3-detail" class="page">
+        <div class="work-display-header">
+            <h1>蕭舒云 –《四系聯合迎新》演出紀錄</h1>
+            <p class="english-title">Four-Department Joint Event - Still belong to mine? Cover By XSY</p>
+            <p class="subtitle">VIDEOGRAPHY & COLOR & EDIT</p>
+        </div>
+
+        <div class="embed-container" id="video-placeholder-10" onclick="loadVideoTen()" style="max-width: 1200px; margin: 0 auto 60px; cursor:pointer;">
+            <img src="XSTY-1.jpg" style="width:100%; display:block;" alt="點擊播放影片">
+            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); color:white; font-size:50px; pointer-events:none;">▶</div>
+        </div>
+
+        <button class="back-btn" onclick="showPage('v-live-detail')">← 返回列表</button>
+    </main>
+
+    <main id="xsy4-detail" class="page">
+        <div class="work-display-header">
+            <h1>蕭舒云 –《暮林之聲》歌唱比賽紀錄</h1>
+            <p class="english-title">Twilight Echoes Singing Competition - Shallow Cover By XSY</p>
+            <p class="subtitle">VIDEOGRAPHY & COLOR & EDIT</p>
+        </div>
+
+        <div class="embed-container" id="video-placeholder-11" onclick="loadVideoEleven()" style="max-width: 1200px; margin: 0 auto 60px; cursor:pointer;">
+            <img src="XSY-2.jpg" style="width:100%; display:block;" alt="點擊播放影片">
+            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); color:white; font-size:50px; pointer-events:none;">▶</div>
+        </div>
+   
+        <button class="back-btn" onclick="showPage('v-live-detail')">← 返回列表</button>
+    </main>
+
+    <main id="irisoutcover-detail" class="page">
+        <div class="work-display-header">
+            <h1>余常宣 – "IRIS OUT"</h1>
+            <p class="english-title">Styliz – "IRIS OUT" Violin Cover</p>
+            <p class="subtitle">VIDEOGRAPHY & COLOR & EDIT</p>
+        </div>
+
+        <div class="embed-container" id="video-placeholder-12" onclick="loadVideoTwelve()" style="max-width: 1200px; margin: 0 auto 60px; cursor:pointer;">
+            <img src="irisout.png" style="width:100%; display:block;" alt="點擊播放影片">
+            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); color:white; font-size:50px; pointer-events:none;">▶</div>
+        </div>
+
+        <button class="back-btn" onclick="showPage('v-live-detail')">← 返回列表</button>
+    </main>
+
+    <main id="fatecover-detail" class="page">
+        <div class="work-display-header">
+            <h1>余常宣 – "Fate"</h1>
+            <p class="english-title">Styliz – "Fate" Violin Cover</p>
+            <p class="subtitle">VIDEOGRAPHY & COLOR & EDIT</p>
+        </div>
+
+        <div class="embed-container" id="video-placeholder-13" onclick="loadVideoThirteen()" style="max-width: 1200px; margin: 0 auto 60px; cursor:pointer;">
+            <img src="fate.png" style="width:100%; display:block;" alt="點擊播放影片">
+            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); color:white; font-size:50px; pointer-events:none;">▶</div>
+        </div>
+        <button class="back-btn" onclick="showPage('v-cover-detail')">← 返回列表</button>
+    </main>
+
+    <main id="fightsongcover-detail" class="page">
+        <div class="work-display-header">
+            <h1>余常宣 – "ファイトソング"</h1>
+            <p class="english-title">Styliz – "Fight Song" Violin Cover</p>
+            p class="subtitle">VIDEOGRAPHY & COLOR & EDIT</p>
+        </div>
+
+        <div class="embed-container" id="video-placeholder-14" onclick="loadVideoFourteen()" style="max-width: 1200px; margin: 0 auto 60px; cursor:pointer;">
+            <img src="fightsong.png" style="width:100%; display:block;" alt="點擊播放影片">
+            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); color:white; font-size:50px; pointer-events:none;">▶</div>
+        </div>
+
+        <button class="back-btn" onclick="showPage('v-cover-detail')">← 返回列表</button>
+    </main>
+
+    <main id="concert-detail" class="page">
+        <h1 class="detail-title"><strong>音樂會攝影</strong></h1>
+        <p class="detailenglish-title">Concert Recording</p>
+        <div class="detail-grid">
+            <div class="work-item" onclick="showPage('mdwb-2025wb-detail')">
+                <img src="Concert Recording1.jpg">
+                <p>2025 嘉義市國際管樂節 <span>2025 MDWB Chiayi City International Band Festival</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('mdwb-2025summer-detail')">
+                <img src="Concert Recording2.jpg">
+                <p>2025《藍色管風情》音樂會 <span>2025 MDWB Concert</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('2025sunmoon-detail')">
+                <img src="Concert Recording3.jpg" >
+                <p>2025 中區十校管樂聯合暑訓《日樂曇》音樂會 <span>2025 Summer Wind Band Concert</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('mdwb-2025winter-detail')">
+                <img src="Concert Recording4.jpg" ">
+                <p>2025 歲末感恩草地音樂會 <span>2025 MDWB Concert On The Grass</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('mdwb-2024winter-detail')">
+                <img src="Concert Recording5.jpg">
+                <p>2024 歲末感恩草地音樂會 <span>2024 MDWB Concert On The Grass</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('mdwb-2023summer-detail')">
+                <img src="Concert Recording6.jpg">
+                <p>2023《藍色管風情》音樂會 <span>2023 MDWB Concert</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('mdcm-2023summer-detail')">
+                <img src="Concert Recording7.jpg">
+                <p>2023《洄韻》音樂會 <span>2023 MDCM Concert</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('mdwb-2022summer-detail')">
+                <img src="Concert Recording8.jpg">
+                <p>2022《藍色管風情》音樂會 <span>2022 MDWB Concert</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('mdcm-2022summer-detail')">
+                <img src="Concert Recording9.jpg">
+                <p>2022《漪循》音樂會 <span>2022 MDCM Concert</span></p>
+            </div>
+        </div>
+        <button class="back-btn" onclick="showPage('photo-page')">← 返回平面影像</button>
+    </main>
+
+    <main id="bts-detail" class="page">
+            <h1 class="detail-title"><strong>側拍</strong></h1>
+            <p class="detailenglish-title">Behind The Scenes</p>
+        <div class="detail-grid">
+        
+            <div class="work-item" onclick="showPage('2025sakura-detail')">
+                <img src="Behind The Scenes1.jpg">
+                <p>2025 櫻花尋音計畫 Live Session <span>2025 Sakura Original Music Live Session</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('2025sakurasummer-detail')">
+                <img src="Behind The Scenes2.jpg">
+                <p>2025 櫻花尋音計畫《最初的深空下》MV <span>2025 Sakura Original Music Video</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('2024sakurasummer-detail')">
+                <img src="Behind The Scenes3.jpg">
+                <p>2024 櫻花尋音計畫《未來的柔光》MV <span>2024 Sakura Original Music Video</span></p>
+            </div>
+        </div>
+            <button class="back-btn" onclick="showPage('photo-page')">← 返回平面影像</button>
+    </main>
+
+    <main id="stage-detail" class="page">
+            <h1 class="detail-title"><strong>演出幕後</strong></h1>
+        <p class="detailenglish-title">Behind The Stages</p>
+            <div class="detail-grid">
+            <div class="work-item" onclick="showPage('2025wbbts-detail')">
+                <img src="Behind The Stages1.jpg">
+                <p>2025《藍色管風情》音樂會<span>2025 MDWB Concert</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('2024winterbts-detail')">
+                <img src="Behind The Stages3.jpg">
+                <p>2024 歲末感恩草地音樂會<span>2024 MDWB Concert On The Grass Rehersal</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('2024wbbts-detail')">
+                <img src="Behind The Stages2.jpg">
+                <p>2024《藍色管風情》音樂會<span>2024 MDWB Concert</span></p>
+            </div>
+        </div>
+            <button class="back-btn" onclick="showPage('photo-page')">← 返回平面影像</button>
+    </main>
+
+    <main id="event-detail" class="page">
+            <h1 class="detail-title"><strong>活動紀錄</strong></h1>
+            <p class="detailenglish-title">Event Recording</p>
+        <div class="detail-grid">
+            <div class="work-item" onclick="showPage('2024event-detail')">
+                <img src="Event Recording1.jpg" >
+                <p>2024 反毒主題曲歌手頒獎典禮暨發表會<span>2024 Anti-drug Theme Song Singer Award Ceremony</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('2023event-detail')">
+                <img src="Event Recording2.jpg">
+                <p>2023 大眾傳播學系學會體育競賽<span>2023 PUMC Sports Competition</span></p>
+            </div>
+        </div>
+            <button class="back-btn" onclick="showPage('photo-page')">← 返回平面影像</button>
+    </main>
+
+    <main id="video-page" class="page">
+            <h1 class="page-title">動態影像 VIDEOGRAPHY</h1>
+            <div class="portfolio-grid">
+                <div class="work-item" onclick="showPage('v-event-detail')">
+                    <img src="V1.jpg" alt="Work">
+                    <p><strong>活動紀錄 <span>Event Recording</span></strong></p>
+                </div>
+                <div class="work-item" onclick="showPage('v-mv-detail')">
+                    <img src="V2.jpg" alt="Work">
+                    <p><strong>音樂錄影帶 <span>Music Video</strong></span></p>
+                </div>
+                <div class="work-item" onclick="showPage('v-live-detail')">
+                    <img src="V3.jpg" alt="Work">
+                    <p><strong>現場演出 <span>One Minute Live Session & Stage Recording</span></strong></p>
+                </div>
+                <div class="work-item" onclick="showPage('v-cover-detail')">
+                    <img src="V4.jpg" alt="Work">
+                    <p><strong>樂器演奏 <span>Instrument Cover</span></strong></p>
+                </div>
+            </div>
+    </main>
+
+    <main id="v-event-detail" class="page">
+        <h1 class="detail-title"><strong>活動紀錄</strong></h1>
+        <p class="detailenglish-title">Event Recording</p>
+        <div class="detail-grid">
+            <div class="work-item" onclick="showPage('2025wbconcertvideo-detail')">
+                <img src="Recording2.jpg" alt="2025 嘉義市國際管樂節">
+                <p>2025《藍色管風情》音樂會<span>2025 MDWB Concert</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('2025wbwintervideo-detail')">
+                <img src="Recording1.jpg" alt="2025 嘉義市國際管樂節">
+                <p>2025 嘉義市國際管樂節<span>2025 MDWB Chiayi City International Band Festival</span></p>
+            </div>
+        </div>
+        <button class="back-btn" onclick="showPage('video-page')">← 返回動態影像</button>
+    </main>
+
+    <main id="v-mv-detail" class="page">
+            <h1 class="detail-title"><strong>音樂錄影帶</strong></h1>
+            <p class="detailenglish-title">Music Video</p>
+        <div class="detail-grid">
+            <div class="work-item" onclick="showPage('mv1-detail')">
+                <img src="聽說.png">
+                <p>櫻花尋音計畫 –《聽說》<span>Sakura Original Music - All Things Find Their Place</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('mv2-detail')">
+                <img src="無以名狀.png">
+                <p>櫻花尋音計畫 –《無以名狀》<span>Sakura Original Music – Dreaming While We Live</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('mv3-detail')">
+                <img src="夢醒.png">
+                <p>男孩別哭 –《夢醒》<span>Boys Don't Cry – Those We Have Dreamed</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('mv4-detail')">
+                <img src="致我們與我們的歌.png">
+                <p>櫻花尋音計畫 –《致我們與我們的歌》<span>Sakura Original Music - Our Song, Our Story</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('mv5-detail')">
+                <img src="昔日夢旁.png">
+                <p>櫻花尋音計畫 –《昔日夢旁》<span>Sakura Original Music - After the Dreams Have Faded</span></p>
+            </div>
+        </div>
+        <button class="back-btn" onclick="showPage('video-page')">← 返回動態影像</button>
+    </main>
+
+    <main id="v-live-detail" class="page">
+            <h1 class="detail-title"><strong>現場演出</strong></h1>
+            <p class="detailenglish-title">One Minute Live Session & Stage Recording</p>
+        <div class="detail-grid">
+            <div class="work-item" onclick="showPage('xsy1-detail')">
+                <img src="Live1.jpg">
+                <p>櫻花尋音計畫 蕭舒云 –《未竟盛夏》<span>Sakura Original Music – Summer Days That Still Glow Cover by XSY</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('xsy2-detail')">
+                <img src="Live2.jpg">
+                <p>櫻花尋音計畫 蕭舒云 –《最初的深空下》<span>Sakura Original Music – Still Beneath the Same Stars Cover by XSY</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('irisoutcover-detail')">
+                <img src="irisout.jpg">
+                <p>余常宣 – "IRIS OUT"<span>Styliz – "IRIS OUT" Violin Cover</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('xsy3-detail')">
+                <img src="Live4.jpg">
+                <p>蕭舒云 –《四系聯合迎新》演出紀錄<span>Four-Department Joint Event - Still belong to mine? Cover By XSY</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('xsy4-detail')">
+                <img src="Live5.jpg">
+                <p>蕭舒云 –《暮林之聲》歌唱比賽紀錄<span>Twilight Echoes Singing Competition - Shallow Cover By XSY</span></p>
+            </div>
+        </div>
+        <button class="back-btn" onclick="showPage('video-page')">← 返回動態影像</button>
+    </main>
+
+    <main id="v-cover-detail" class="page">
+         <h1 class="detail-title"><strong>樂器演奏</strong></h1>
+            <p class="detailenglish-title">Instrument Cover</p>
+        <div class="detail-grid">
+            <div class="work-item" onclick="showPage('fatecover-detail')">
+                <img src="fate.jpg">
+                <p>余常宣 – "Fate" <span>Styliz – "Fate" Violin Cover</span></p>
+            </div>
+            <div class="work-item" onclick="showPage('fightsongcover-detail')">
+                <img src="fightsong.jpg">
+                <p>余常宣 – "ファイトソング"<span>Styliz – "Fight Song" Violin Cover</span></p>
+            </div>    
+        </div>
+        <button class="back-btn" onclick="showPage('video-page')">← 返回動態影像</button>
+    </main>
+
+    
+    <footer style="padding: 60px 10%; background-color: #1a1a1a; color: #eee; border-top: 1px solid #333; font-size: 0.9rem; line-height: 1.8;">
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap;">
+        
+        <!-- 左側資訊區區塊 -->
+        <div style="text-align: left;">
+            <div style="font-size: 1.3rem; margin-bottom: 15px; display: flex; gap: 20px;">
+                <a href="https://www.facebook.com" target="_blank" style="color: #ffffff; text-decoration: none;"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" style="color: #ffffff; text-decoration: none;"><i class="fab fa-instagram"></i></a>
+                <a href="https://plus.line.me/" target="_blank" style="color: #ffffff; text-decoration: none;"><i class="fab fa-line"></i></a>
+            </div>
+            <div class="footer-info-container">
+                <h4 class="footer-info-item">
+                    <span class="icon-box"><i class="fas fa-phone"></i></span>
+                    <span class="text-content">電話：<a href="tel:041991251435">04-1991-251435</a></span>
+                </h4>
+                <h4 class="footer-info-item">
+                    <span class="icon-box"><i class="fas fa-envelope"></i></span>
+                    <span class="text-content">信箱：<a href="mailto:frameofsilencestudio@gmail.com">frameofsilence.service@gmail.com</a></span>
+                </h4>
+                <h4 class="footer-info-item">
+                    <span class="icon-box"><i class="fas fa-location-dot"></i></span>
+                    <span class="text-content">地址：臺中市福嵐路賽蘭斯巷11號</span>
+                </h4>
+            </div>
+        </div>
+
+            <!-- 右側區塊 -->
+            <div class="nav-logo2" onclick="showPage('home-page'); closeMobileMenu();">
+                    <img src="LOGO-8.png" alt="Logo">
+            </div>
+        </div>
+        <div style="max-width: 1200px; margin: 30px auto 0 auto; font-size: 0.75rem; color: #bbb; text-align: left;">
+            &copy; 2026 Frame of Silence Studio 一幀映時影像工作室.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
